@@ -1,135 +1,59 @@
-# 🌐 Mirza Tabish Hasan — Portfolio
+# Mirza Tabish Hasan — Engineering Portfolio
 
-> **Software Engineer | Full-Stack Developer | Cloud & AI/ML Enthusiast**
+> Software Engineer · Real-time systems · Production performance · Platform libraries · AI-native engineering
 
-A cinematic, dark-themed personal portfolio built with pure HTML, CSS, and JavaScript — no frameworks, no dependencies. Designed to leave a lasting impression.
+An engineering impact report rather than a template portfolio. Every section leads with problem and result; an **Engineer view** toggle expands the design, patterns, and trade-offs behind each case study.
 
-🔗 **Live**: [tabish8065.github.io/portfolio](https://tabish8065.github.io/portfolio)
+**Live:** [tabish8065.github.io/portfolio](https://tabish8065.github.io/portfolio/)
 
----
+## What's on the page
 
-## ✨ Features
+| Section | Purpose |
+|---|---|
+| Hero | Role, positioning, four headline metrics, live experience counter (since 19 Sep 2023) |
+| 30-second read | Who, what I ship, how I work, and the engineering vocabulary from my work |
+| Zenoti work | Real-time pipeline, API optimization, attachment contract, plan-tier features, streaming storage library, policy pipeline, distributed coordination |
+| AI-native engineering | MCP-connected workflow, guardrails, and the engineering tools I built (observability dashboard, PR analyzer, API regression, E2E smoke) |
+| Architecture and quality | Flutter architecture standard and layered testing framework |
+| Cognizant | Automation, telemetry pipeline, Azure migration, performance |
+| Projects, Journey, Capabilities, Contact | Supporting evidence and ways to reach me |
 
-### Visual & Animations
-- **Interactive Particle Canvas** — 80 floating particles that connect to your cursor on hover
-- **Custom Animated Cursor** — with magnetic hover expansion on interactive elements
-- **Scroll-Triggered Reveals** — elements animate in as you scroll down
-- **Cinematic Loader** — code-style intro with animated progress bar
-- **Floating Badges** — key stats orbit around the avatar with smooth animations
-- **Rotating Orbital Rings** — around the avatar section
-- **Grid-Line Overlay** — subtle engineering/techy background texture
-- **Film-Grain Noise** — for that premium cinematic feel
-
-### Unique Components
-- **⏱ Live Experience Counter** — ticks every second from Sept 19, 2023 showing years, months, days, hours, minutes, and seconds of professional experience in real-time
-- **Infinite Skills Marquee** — auto-scrolling tech stack with hover pause
-- **Project Cards** — with color-coded tags (Hackathon, Vibe Coding, Professional, IoT) and glow effects
-- **Career Timeline** — vertical timeline from education to current role at Zenoti
-- **Achievement Highlights** — key numbers displayed in glass-morphism cards
-- **Smart Navbar** — hides on scroll down, reappears on scroll up
-
-### Design
-- Dark techy theme with **electric cyan + green + purple** palette
-- `JetBrains Mono` for code elements, `Syne` for headings, `Space Grotesk` for body
-- Fully responsive — works on desktop, tablet, and mobile
-- Glass-morphism cards with backdrop blur
-- Gradient text animations
-
----
-
-## 🛠 Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Markup | HTML5 (semantic) |
-| Styling | CSS3 (custom properties, animations, grid, flexbox) |
-| Interactivity | Vanilla JavaScript (Canvas API, Intersection Observer, requestAnimationFrame) |
-| Fonts | Google Fonts (Syne, Space Grotesk, JetBrains Mono) |
-| Hosting | GitHub Pages |
-
-**Zero dependencies. Zero frameworks. Pure web.**
-
----
-
-## 📂 Project Structure
+## Structure
 
 ```
 portfolio/
-└── index.html      # Single-file portfolio (HTML + CSS + JS)
+├── index.html        # Semantic content, metadata, JSON-LD
+├── styles.css        # Visual system, responsive layout, reduced-motion and print rules
+├── script.js         # Nav, reveals, count-up, counter, depth toggle, cursor, canvas
+└── assets/
+    └── resume/
+        └── Mirza-Tabish-Hasan-Resume.pdf   # add this file to enable resume buttons
 ```
 
-Yes, the entire portfolio lives in a single `index.html` file — fully self-contained.
+No framework, no build step, no dependencies. Works when `index.html` is opened directly and on GitHub Pages.
 
----
+## Behavior notes
 
-## 🚀 Getting Started
+- Content is fully visible without JavaScript; `<details>` panels work natively.
+- `prefers-reduced-motion` disables the canvas, cursor, count-up, and reveal motion.
+- The custom cursor is enabled only for precise pointers.
+- The particle canvas scales density to the viewport, caps device-pixel ratio at 2, and pauses when the tab is hidden.
+- Resume buttons stay hidden until `assets/resume/Mirza-Tabish-Hasan-Resume.pdf` is reachable over HTTP, so no broken links ship.
 
-### Run Locally
+## Run locally
+
+Open `index.html` in a browser, or serve the folder:
+
 ```bash
-# Clone the repo
-git clone https://github.com/Tabish8065/portfolio.git
-
-# Open in browser
-cd portfolio
-open index.html
-# or simply double-click index.html
+python -m http.server 8000
 ```
 
-No build step. No `npm install`. Just open and go.
+## Deploy
 
-### Deploy to GitHub Pages
-1. Push to your GitHub repository
-2. Go to **Settings** → **Pages**
-3. Source: **main branch** / **root**
-4. Your site goes live at `https://tabish8065.github.io/portfolio/`
+GitHub Pages serves `main` from the repository root. Merge `work` into `main` to publish.
 
----
+## Contact
 
-## 📸 Sections
-
-| Section | Description |
-|---------|------------|
-| **Hero** | Name, tagline, CTA buttons, live experience counter |
-| **About** | Bio, avatar with orbital rings, floating stat badges, stats bar |
-| **Skills** | Infinite marquee of 22 technologies |
-| **Projects** | 5 featured projects — AppPulse, Code Quality Analyzer, API Migration, IoT Pipeline, Smart Monitor |
-| **Achievements** | Hackathon ranking, pipeline stats, performance wins, leadership |
-| **Journey** | Career timeline from AMU → KIET → Cognizant → Zenoti |
-| **Contact** | Email, phone, GitHub, LinkedIn with direct action links |
-
----
-
-## 🏆 Featured Projects Highlighted
-
-- **AppPulse** — ML-powered predictive health monitoring (AWS Hackathon Top 6 / 1700+)
-- **Code Quality Analyzer** — AI/Vibe-coded PR validation tool with Roslyn analysis
-- **Enterprise API Migration** — Azure migration of 19 endpoints with 70% load time reduction
-- **IoT Data Pipeline** — 500K daily telemetry records at 99.9% accuracy
-- **Smart Environment Monitor** — Real-time classroom monitoring with AWS IoT & Grafana
-
----
-
-## 🤖 Built With AI, Directed By Me
-
-The code for this portfolio was generated by leveraging AI (Claude by Anthropic) — but the imagination, creative direction, content curation, and supervision behind every design choice, animation, and detail is entirely mine. AI was the tool; the vision was human.
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
-## 🤝 Connect
-
-- 📧 **Email**: [mirzatabish8065@gmail.com](mailto:mirzatabish8065@gmail.com)
-- 💼 **LinkedIn**: [linkedin.com/in/hmirza8065](https://linkedin.com/in/hmirza8065)
-- 🐙 **GitHub**: [github.com/Tabish8065](https://github.com/Tabish8065)
-- 📱 **Phone**: +91 7500711340
-
----
-
-<p align="center">
-  Crafted with ♥ by <strong>Mirza Tabish Hasan</strong>
-</p>
+- Email: [mirzatabish8065@gmail.com](mailto:mirzatabish8065@gmail.com)
+- LinkedIn: [linkedin.com/in/hmirza8065](https://linkedin.com/in/hmirza8065)
+- GitHub: [github.com/Tabish8065](https://github.com/Tabish8065)
