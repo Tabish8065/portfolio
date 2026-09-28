@@ -6,9 +6,9 @@
 <title>Mirza Tabish Hasan — Software Engineer · Real-Time Systems, Performance, AI-Native Engineering</title>
 <meta name="description" content="Software Engineer at Zenoti building Zenchat real-time messaging, plan-tier product features, shared platform libraries, and AI-native engineering workflows. 20s to under 1s API latency, 70% faster client loads, 500K events/day pipelines.">
 <meta name="author" content="Mirza Tabish Hasan">
-<meta name="theme-color" content="#05080d">
+<meta name="theme-color" content="#12161D">
 <link rel="canonical" href="https://tabish8065.github.io/portfolio/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2305080d'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='monospace' font-size='28' font-weight='700' fill='%2300d4ff'%3EMT%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2312161D'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='monospace' font-size='28' font-weight='700' fill='%23F2B84B'%3EMT%3C/text%3E%3C/svg%3E">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Mirza Tabish Hasan — Software Engineer">
 <meta property="og:description" content="Real-time systems, production performance, platform libraries, and AI-native engineering. Engineering impact, with the numbers.">
@@ -19,509 +19,1870 @@
 <meta name="twitter:description" content="Real-time systems, production performance, platform libraries, and AI-native engineering.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"ProfilePage","mainEntity":{"@type":"Person","name":"Mirza Tabish Hasan","jobTitle":"Software Engineer","worksFor":{"@type":"Organization","name":"Zenoti"},"address":{"@type":"PostalAddress","addressLocality":"Hyderabad","addressRegion":"Telangana","addressCountry":"IN"},"email":"mailto:mirzatabish8065@gmail.com","url":"https://tabish8065.github.io/portfolio/","sameAs":["https://github.com/Tabish8065","https://linkedin.com/in/hmirza8065"],"knowsAbout":["Real-time systems","SignalR","MongoDB Change Streams",".NET","Flutter","Distributed systems","API performance","Observability","Azure","AWS","AI-native engineering","Model Context Protocol"]}}
 </script>
-<script>document.documentElement.classList.add('js')</script>
-<script defer src="script.js"></script>
+<script>(function(d){d.classList.add('js');var v='product';try{v=localStorage.getItem('view')||v}catch(e){}var q=/[?&]view=(engineer|product)/.exec(location.search);if(q){v=q[1]}d.setAttribute('data-view',v==='engineer'?'engineer':'product')})(document.documentElement)</script>
+<style>
+:root{
+  --bg:#12161D;--bg-deep:#0B0E14;--bg-raise:#171C25;
+  --line:rgba(231,236,242,.08);--line-2:rgba(231,236,242,.16);--grid:rgba(231,236,242,.045);
+  --ink:#E7ECF2;--ink-2:#B7C0CC;--ink-3:#8E9AAB;
+  --amber:#F2B84B;--amber-hi:#F7CC7A;--live:#45D483;--live-bg:rgba(69,212,131,.06);
+  --mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --fs-hero:clamp(38px,5.2vw,64px);--fs-h2:clamp(28px,3.4vw,42px);--fs-h3:clamp(20px,2vw,26px);
+  --fs-body:16px;--fs-small:13.5px;--fs-code:12.5px;
+  --pad-x:clamp(20px,5vw,72px);--section-y:clamp(80px,11vw,144px);
+  --radius-s:4px;--radius-m:6px;--radius-l:10px;
+  --ease:cubic-bezier(.2,.7,.2,1);--hdr:56px;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:400 var(--fs-body)/1.6 var(--sans);color:var(--ink-2);background:linear-gradient(var(--grid) 1px,transparent 1px) 0 0/64px 64px,linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/64px 64px,var(--bg);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--mono);font-weight:700;color:var(--ink);margin:0;text-wrap:balance;line-height:1.15}
+h1{font-size:var(--fs-hero);letter-spacing:-.03em;line-height:1.06}
+h2{font-size:var(--fs-h2);letter-spacing:-.03em}
+h3{font-size:var(--fs-h3);letter-spacing:-.02em}
+h4{font-size:15px;letter-spacing:-.01em}
+p{margin:0}
+a{color:inherit}
+strong{color:var(--ink);font-weight:600}
+ul,ol{margin:0;padding:0;list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:2px}
+[id]{scroll-margin-top:80px}
+.sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+.skip{position:fixed;left:12px;top:-60px;z-index:100;background:var(--amber);color:var(--bg);padding:10px 14px;border-radius:var(--radius-m);font:700 14px var(--mono);text-decoration:none}
+.skip:focus{top:12px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 var(--pad-x)}
+.mono{font-family:var(--mono)}
+.kicker{font:500 var(--fs-small)/1.4 var(--mono);color:var(--ink-3);margin-bottom:16px}
+.lede{max-width:62ch;margin-top:18px;color:var(--ink-2)}
+.section{padding:var(--section-y) 0;border-top:1px solid var(--line)}
+.sec-head{margin-bottom:56px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;border-radius:var(--radius-m);font:700 14px var(--mono);text-decoration:none;border:1px solid var(--line-2);color:var(--ink);transition:background .2s,border-color .2s,color .2s}
+.btn:hover{border-color:var(--ink-3);background:var(--bg-raise)}
+.btn-amber{background:var(--amber);border-color:var(--amber);color:#12161D}
+.btn-amber:hover{background:var(--amber-hi);border-color:var(--amber-hi)}
+.btn-sm{min-height:34px;padding:0 12px;font-size:12.5px}
+.chip{display:inline-flex;align-items:center;min-height:28px;padding:3px 10px;border:1px solid var(--line-2);border-radius:var(--radius-s);font:500 12px var(--mono);color:var(--ink-2);text-decoration:none;background:var(--bg-deep)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+kbd{font:500 11px var(--mono);padding:1px 6px;border:1px solid var(--line-2);border-radius:3px;color:var(--ink-3)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--live);display:inline-block;flex:none;box-shadow:0 0 0 0 rgba(69,212,131,.5);animation:ping 2.4s infinite}
+@keyframes ping{0%{box-shadow:0 0 0 0 rgba(69,212,131,.45)}70%,100%{box-shadow:0 0 0 7px rgba(69,212,131,0)}}
+
+/* header */
+.hdr{position:sticky;top:0;z-index:50;height:var(--hdr);background:rgba(18,22,29,.85);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.hdr-in{height:100%;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;max-width:1440px;margin:0 auto;padding:0 clamp(16px,3vw,32px)}
+.logo{display:inline-flex;align-items:center;gap:10px;font:700 15px var(--mono);color:var(--ink);text-decoration:none;min-height:44px}
+.nav{display:flex;justify-content:center;gap:4px}
+.nav a{position:relative;padding:8px 10px;font:500 13px var(--mono);color:var(--ink-3);text-decoration:none;transition:color .2s}
+.nav a:hover,.nav a.on{color:var(--ink)}
+.nav a::after{content:'';position:absolute;left:10px;right:10px;bottom:2px;height:2px;background:var(--amber);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+.nav a.on::after{transform:scaleX(1)}
+.hdr-r{display:flex;align-items:center;gap:12px}
+.clock{font:500 12.5px var(--mono);color:var(--ink-3);white-space:nowrap;font-variant-numeric:tabular-nums}
+.clock b{color:var(--ink-2);font-weight:500}
+.seg{display:none;align-items:center;gap:8px}
+.js .seg{display:inline-flex}
+.seg-l{font:500 12px var(--mono);color:var(--ink-3);white-space:nowrap}
+.seg-g{display:inline-flex;padding:3px;border:1px solid var(--line-2);border-radius:var(--radius-m);background:var(--bg-deep)}
+.seg-g button{min-height:30px;padding:0 10px;border-radius:4px;font:500 12.5px var(--mono);color:var(--ink-3);transition:background .25s,color .25s}
+.seg-g button[aria-pressed="true"]{background:var(--amber);color:#12161D;font-weight:700}
+.kbtn{display:none;align-items:center;gap:6px;min-height:34px;padding:0 10px;border:1px solid var(--line-2);border-radius:var(--radius-m);font:500 12px var(--mono);color:var(--ink-3)}
+.js .kbtn{display:inline-flex}
+.kbtn:hover{color:var(--ink);border-color:var(--ink-3)}
+.menu{display:none;width:44px;height:44px;align-items:center;justify-content:center;border:1px solid var(--line-2);border-radius:var(--radius-m)}
+.menu span,.menu span::before,.menu span::after{display:block;width:16px;height:1.5px;background:var(--ink);position:relative}
+.menu span::before,.menu span::after{content:'';position:absolute}
+.menu span::before{top:-5px}.menu span::after{top:5px}
+.prog{position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--amber);transform:scaleX(0);transform-origin:left}
+
+/* hero */
+.hero{position:relative;min-height:max(720px,calc(100svh - var(--hdr)));display:flex;flex-direction:column;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(760px circle at var(--mx,70%) var(--my,30%),rgba(242,184,75,.10),transparent 62%);opacity:var(--so,0);transition:opacity .5s}
+.hero-grid{flex:1;display:grid;grid-template-columns:1.18fr 1fr;gap:64px;align-items:center;padding-top:56px;padding-bottom:56px;position:relative}
+.role{display:flex;align-items:center;gap:10px;font:500 13.5px var(--mono);color:var(--ink-3);margin-bottom:22px}
+.hero h1{max-width:15ch}
+.hero .lede{margin-top:24px;font-size:17px}
+.acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.term{background:var(--bg-deep);border:1px solid var(--line);border-radius:var(--radius-l);overflow:hidden}
+.term-bar{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--line);font:500 12.5px var(--mono);color:var(--ink)}
+.term-bar small{margin-left:auto;color:var(--ink-3);font-size:11.5px;text-align:right}
+.log{height:236px;padding:12px 8px;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden}
+.ll{display:grid;grid-template-columns:92px 108px 1fr;gap:10px;width:100%;text-align:left;padding:3px 8px;border-radius:4px;font:400 var(--fs-code)/1.55 var(--mono);color:var(--ink);transition:background .2s}
+.ll:hover{background:var(--bg-raise)}
+.ll .t{color:var(--ink-3);font-variant-numeric:tabular-nums}
+.ll .s{color:var(--live)}
+.ll .m{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ll.new{animation:lin .5s var(--ease)}
+@keyframes lin{from{opacity:0;transform:translateY(6px)}}
+.term-foot{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;border-top:1px solid var(--line);background:rgba(242,184,75,.05);font:500 12.5px var(--mono);color:var(--ink-3)}
+.term-foot b{color:var(--amber);font-weight:500;font-variant-numeric:tabular-nums}
+.metrics{position:relative;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin-bottom:0}
+.metrics li{padding:24px 24px 28px;border-left:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
+.metrics li:first-child{border-left:0;padding-left:0}
+.mv{font:700 clamp(20px,2vw,26px)/1.1 var(--mono);color:var(--ink);letter-spacing:-.02em}
+.mc{font-size:var(--fs-small);color:var(--ink-3);line-height:1.45;max-width:30ch}
+.spark{width:120px;height:28px;margin-top:8px;overflow:visible}
+.spark path{fill:none;stroke:var(--amber);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+/* boot + draw (hidden states only when motion is allowed) */
+@media (prefers-reduced-motion:no-preference){
+  .js .boot{opacity:0;transform:translateY(14px)}
+  .booted .boot{opacity:1;transform:none;transition:opacity .7s var(--ease) var(--d,0s),transform .7s var(--ease) var(--d,0s)}
+  .js .spark path{stroke-dasharray:1;stroke-dashoffset:1}
+  .booted .spark path{stroke-dashoffset:0;transition:stroke-dashoffset 1.4s var(--ease) calc(var(--d,0s) + .9s)}
+  .js .flow:not(.is-drawn) .node{opacity:0}
+  .js .flow:not(.is-drawn) .node::before{clip-path:inset(0 100% 0 0)}
+  .js .flow:not(.is-drawn) .wire::before{transform:scaleX(0)}
+  .js .layers:not(.is-drawn) li{opacity:0;transform:translateY(-14px)}
+  .js .fadein:not(.is-drawn){opacity:0}
+}
+.node,.node::before,.wire::before,.layers li,.fadein{transition:opacity .5s var(--ease) calc(var(--i,0)*180ms),clip-path .7s var(--ease) calc(var(--i,0)*180ms),transform .5s var(--ease) calc(var(--i,0)*180ms),border-color .35s}
+
+/* glance */
+.glance{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line)}
+.glance article{padding:28px 28px 0 0}
+.glance article+article{padding-left:28px;border-left:1px solid var(--line)}
+.glance h3{font-size:16px;margin-bottom:12px;color:var(--amber)}
+.terms{margin-top:56px}
+.terms-l{font:500 var(--fs-small) var(--mono);color:var(--ink-3);margin-bottom:14px}
+.term-c{transition:border-color .2s,color .2s}
+.term-c:hover,.term-c:focus-visible{border-color:var(--amber);color:var(--ink)}
+.tip{position:fixed;z-index:60;max-width:300px;padding:8px 12px;background:var(--bg-deep);border:1px solid var(--line-2);border-radius:var(--radius-m);font-size:13px;line-height:1.45;color:var(--ink);pointer-events:none}
+.cap-line{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:40px;font-size:var(--fs-small);color:var(--ink-3)}
+.cap-line .btn{display:none}
+.js .cap-line .btn{display:inline-flex}
+
+/* work layout */
+.work{display:grid;grid-template-columns:260px 1fr;gap:64px;align-items:start}
+.work>div,.hero-grid>*,.fx-panels{min-width:0}
+.rail{position:sticky;top:calc(var(--hdr) + 32px)}
+.rail ul{position:relative;display:flex;flex-direction:column;gap:2px}
+.rail a{--p:0;position:relative;display:block;padding:10px 0 12px 16px;font:500 13px var(--mono);color:var(--ink-3);text-decoration:none;transition:color .25s}
+.rail a::before{content:'';position:absolute;left:0;top:0;bottom:0;width:1px;background:var(--line-2)}
+.rail a::after{content:'';position:absolute;left:0;top:0;width:1px;height:calc(var(--p)*100%);background:var(--amber)}
+.rail a:hover,.rail a.on{color:var(--ink)}
+.rail small{display:block;font-size:11px;color:var(--ink-3);margin-top:2px}
+.case{padding:0 0 88px;margin-bottom:88px;border-bottom:1px solid var(--line)}
+.case:last-child{border-bottom:0;margin-bottom:0;padding-bottom:0}
+.tag{font:500 12.5px var(--mono);color:var(--ink-3);margin-bottom:10px;display:block}
+.case h3{margin-bottom:20px}
+.case>p,.case .body>p{max-width:62ch;margin-top:12px}
+.result{margin-top:22px;padding:16px 18px;border:1px solid rgba(69,212,131,.35);background:var(--live-bg);border-radius:var(--radius-m);max-width:62ch}
+.result b{display:block;font:700 12px var(--mono);color:var(--live);margin-bottom:4px}
+.result p{color:var(--ink)}
+.pane{display:grid;grid-template-rows:1fr;transition:grid-template-rows .45s var(--ease),opacity .35s var(--ease)}
+.pane>div{min-height:0;overflow:hidden}
+.pane>div>:first-child{margin-top:22px}
+.js[data-view="product"] .for-engineer,.js[data-view="engineer"] .for-product{grid-template-rows:0fr;opacity:0}
+.pane-h{font:700 12.5px var(--mono);color:var(--ink-3);margin-bottom:10px}
+.plain{max-width:62ch;color:var(--ink);font-size:16.5px}
+.bul li{position:relative;padding-left:18px;margin:8px 0;max-width:66ch}
+.bul li::before{content:'';position:absolute;left:0;top:.62em;width:6px;height:6px;background:var(--amber);border-radius:1px}
+.bul+.chips{margin-top:16px}
+.pulse .diagram{animation:pring 1.5s var(--ease)}
+@keyframes pring{0%{box-shadow:0 0 0 0 rgba(242,184,75,.55);border-color:var(--amber)}100%{box-shadow:0 0 0 14px rgba(242,184,75,0)}}
+
+/* diagram system */
+.diagram{position:relative;margin-top:28px;padding:28px;border:1px solid var(--line);border-radius:var(--radius-l);background:rgba(11,14,20,.55)}
+.dcap{display:flex;justify-content:space-between;gap:12px;font:500 11.5px var(--mono);color:var(--ink-3);margin-bottom:20px}
+.flow{display:flex;align-items:center}
+.node{position:relative;flex:0 1 118px;min-width:0;height:84px;padding:12px;border-radius:8px;background:var(--bg-deep);display:flex;flex-direction:column;justify-content:flex-end;gap:3px}
+.node::before{content:'';position:absolute;inset:0;border:1px solid var(--line-2);border-radius:inherit;pointer-events:none}
+.node b{font:700 12px/1.3 var(--mono);color:var(--ink)}
+.node span{font-size:11px;line-height:1.3;color:var(--ink-3)}
+.node.hit::before{border-color:var(--live);transition-delay:0s}
+.wire{position:relative;flex:1 1 20px;min-width:14px;height:1px}
+.wire::before{content:'';position:absolute;inset:0;background:var(--line-2);transform-origin:left}
+.pkt{position:absolute;left:0;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:var(--amber);box-shadow:0 0 12px 2px rgba(242,184,75,.5);opacity:0}
+.flow-sm .node{flex-basis:104px;height:62px;padding:10px}
+.lane+.lane{margin-top:22px}
+.lane-l{font:500 11.5px var(--mono);color:var(--ink-3);margin-bottom:10px}
+.devices{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.device{display:flex;align-items:center;gap:8px;padding:12px;border:1px solid var(--line-2);border-radius:8px;background:var(--bg-deep);font:500 12px var(--mono);color:var(--ink-3);transition:border-color .3s,color .3s,background .3s}
+.device i{width:7px;height:7px;border-radius:50%;background:var(--line-2);transition:background .3s}
+.device.lit{border-color:rgba(69,212,131,.6);color:var(--ink);background:var(--live-bg)}
+.device.lit i{background:var(--live)}
+.rt-under{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:24px;align-items:start}
+.trace{counter-reset:t}
+.trace li{counter-increment:t;position:relative;padding-left:30px;margin-bottom:8px;font-size:14px}
+.trace li::before{content:counter(t);position:absolute;left:0;top:1px;width:20px;height:20px;border:1px solid var(--line-2);border-radius:4px;font:500 11px/18px var(--mono);text-align:center;color:var(--amber)}
+.blocks{display:flex;gap:3px;margin-bottom:auto}
+.blocks i{width:11px;height:8px;border-radius:1px;background:var(--amber);opacity:.15}
+.is-drawn .blocks i{animation:stack 2.4s var(--ease) infinite;animation-delay:calc(var(--b)*.22s)}
+@keyframes stack{0%,8%{opacity:.12;transform:translateY(-5px)}24%,82%{opacity:.9;transform:none}100%{opacity:.12}}
+.off *,.off::before,.off::after{animation-play-state:paused!important}
+
+/* bar race */
+.race{display:grid;gap:12px}
+.race-row{display:grid;grid-template-columns:64px 1fr;align-items:center;gap:14px;font:500 12.5px var(--mono);color:var(--ink-3)}
+.race-bar{height:30px;border-radius:4px;background:var(--bg-deep);border:1px solid var(--line)}
+.race-bar i{display:flex;align-items:center;height:100%;padding:0 10px;border-radius:3px;font:700 12.5px var(--mono);font-style:normal;white-space:nowrap;width:100%}
+.race-before i{background:rgba(231,236,242,.08);color:var(--ink-2)}
+.race-after i{width:var(--w);background:var(--live);color:#0B0E14;min-width:56px;transition:width 1.2s var(--ease)}
+.js [data-race]:not(.run) .race-after i{width:100%}
+.race-out{font:700 clamp(32px,4vw,48px)/1 var(--mono);color:var(--ink);letter-spacing:-.03em;margin-top:18px;font-variant-numeric:tabular-nums}
+.race-out small{font-size:14px;color:var(--ink-3);font-weight:500;letter-spacing:0;margin-left:10px}
+.big{font:700 clamp(40px,5vw,64px)/1 var(--mono);color:var(--ink);letter-spacing:-.04em;margin:6px 0 4px}
+.big small{font-size:15px;color:var(--ink-3);letter-spacing:0;font-weight:500;margin-left:8px}
+
+/* feature explorer */
+.fx{display:grid;grid-template-columns:260px 1fr;gap:0;margin-top:28px;border:1px solid var(--line);border-radius:var(--radius-l);background:rgba(11,14,20,.55);overflow:hidden}
+.fx-tabs{display:none;flex-direction:column;border-right:1px solid var(--line);padding:8px}
+.js .fx-tabs{display:flex}
+.fx-tabs button{position:relative;text-align:left;padding:12px 14px;border-radius:var(--radius-m);font:500 13px/1.35 var(--mono);color:var(--ink-3);transition:background .2s,color .2s}
+.fx-tabs button:hover{color:var(--ink);background:var(--bg-raise)}
+.fx-tabs button[aria-selected="true"]{color:var(--ink);background:var(--bg-raise)}
+.fx-tabs button[aria-selected="true"]::before{content:'';position:absolute;left:0;top:10px;bottom:10px;width:2px;background:var(--amber)}
+.fx-panels{padding:28px}
+html:not(.js) .fx{grid-template-columns:1fr}
+html:not(.js) .fx-panel+.fx-panel{margin-top:36px}
+.fx-panel h4{font-size:18px;margin-bottom:10px}
+.fx-panel>p{max-width:60ch;color:var(--ink)}
+.js .fx-panel:not([hidden]){animation:lin .45s var(--ease)}
+.fx-panel .diagram{margin-top:22px;padding:20px}
+.logic{display:flex;align-items:center;gap:0}
+.logic-in{display:flex;flex-direction:column;gap:10px}
+.lg{display:flex;align-items:center;gap:8px;min-height:44px;padding:0 12px;border:1px solid var(--line-2);border-radius:8px;background:var(--bg-deep);font:500 12px var(--mono);color:var(--ink-3);text-align:left}
+.lg i{width:26px;height:14px;border-radius:7px;background:var(--line-2);position:relative;transition:background .25s;flex:none}
+.lg i::after{content:'';position:absolute;top:2px;left:2px;width:10px;height:10px;border-radius:50%;background:var(--ink-3);transition:transform .25s var(--ease),background .25s}
+.lg[aria-pressed="true"]{color:var(--ink)}
+.lg[aria-pressed="true"] i{background:rgba(242,184,75,.35)}
+.lg[aria-pressed="true"] i::after{transform:translateX(12px);background:var(--amber)}
+.and{width:64px;height:56px;margin:0 0 0 -1px;border:1px solid var(--line-2);border-radius:0 28px 28px 0;display:grid;place-items:center;font:700 12px var(--mono);color:var(--ink);background:var(--bg-deep)}
+.logic .wire{flex:0 0 28px}
+.lg-out{padding:14px;border:1px solid var(--line-2);border-radius:8px;background:var(--bg-deep);font:500 12px var(--mono);color:var(--ink-3);min-width:170px;transition:border-color .3s,color .3s,background .3s}
+.lg-out b{display:block;color:inherit;font-weight:700;margin-top:2px}
+.lg-out.on{border-color:rgba(69,212,131,.6);background:var(--live-bg);color:var(--live)}
+
+/* authz */
+.az{display:grid;grid-template-columns:1.2fr 1fr;gap:28px;align-items:start}
+.az-req{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.az-req button{min-height:36px;padding:0 12px;border:1px solid var(--line-2);border-radius:var(--radius-m);font:500 12px var(--mono);color:var(--ink-3);transition:border-color .2s,color .2s}
+.az-req button[aria-pressed="true"]{border-color:var(--amber);color:var(--ink)}
+.gates{display:flex;flex-direction:column;gap:6px}
+.gate{position:relative;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 14px 10px 30px;border:1px solid var(--line);border-radius:6px;background:var(--bg-deep);font:500 12.5px var(--mono);color:var(--ink-2);transition:border-color .3s,opacity .3s}
+.gate::before{content:'';position:absolute;left:12px;top:50%;width:8px;height:8px;margin-top:-4px;border-radius:50%;background:var(--line-2);transition:background .3s,box-shadow .3s}
+.gs{font-size:11.5px;color:var(--ink-3)}
+.gate.at{border-color:var(--amber)}
+.gate.at::before{background:var(--amber);box-shadow:0 0 10px 2px rgba(242,184,75,.5)}
+.gate.pass::before{background:var(--live)}
+.gate.pass .gs{color:var(--live)}
+.gate.deny{border-color:rgba(242,184,75,.6)}
+.gate.deny::before{background:var(--amber)}
+.gate.deny .gs{color:var(--amber)}
+.gate.skip{color:var(--ink-3);border-style:dashed}
+.az-out{display:grid;gap:10px}
+.az-box{padding:14px 16px;border:1px solid var(--line-2);border-radius:8px;background:var(--bg-deep)}
+.az-box small{display:block;font:500 11px var(--mono);color:var(--ink-3);margin-bottom:4px}
+.az-box b{font:700 15px var(--mono);color:var(--ink)}
+.az-box p{font-size:13.5px;margin-top:4px}
+.allow #az-d{border-color:rgba(69,212,131,.6);background:var(--live-bg)}
+.allow #az-d b{color:var(--live)}
+.deny #az-d{border-color:rgba(242,184,75,.6)}
+.deny #az-d b{color:var(--amber)}
+
+/* reliability */
+.rel{display:grid;gap:14px;margin-top:8px}
+.rel-b{padding:24px;border:1px solid var(--line);border-radius:var(--radius-l);background:rgba(11,14,20,.4)}
+.rel-b h4{margin-bottom:8px;font-size:16px}
+.rel-b>p{max-width:62ch}
+.bucket{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;margin-top:18px;padding:16px;border:1px dashed var(--line-2);border-radius:8px}
+.tk{display:flex;gap:4px}
+.tk i{width:14px;height:22px;border-radius:2px;border:1px solid var(--line-2);transition:background .2s,border-color .2s}
+.tk i.on{background:var(--amber);border-color:var(--amber)}
+.tb-s{font:500 12px var(--mono);color:var(--ink-3)}
+.tb-s b{color:var(--live);font-weight:700}
+.tb-s b.l{color:var(--amber)}
+
+/* ai */
+.airail{position:relative;display:grid;grid-template-columns:repeat(8,1fr);gap:0;margin:8px 0 24px;padding-top:4px}
+.airail::before{content:'';position:absolute;left:6px;right:6px;top:10px;height:1px;background:var(--line-2)}
+.ai-step{position:relative;text-align:left;padding:30px 12px 12px 0;font:500 12.5px/1.35 var(--mono);color:var(--ink-3);transition:color .3s}
+.ai-step::before{content:'';position:absolute;left:0;top:0;width:12px;height:12px;border-radius:50%;background:var(--bg);border:1px solid var(--line-2);transition:background .3s,border-color .3s}
+.ai-step em{display:block;font-style:normal;font-size:11px;color:var(--ink-3);margin-bottom:4px}
+.ai-step:hover,.ai-step.cur{color:var(--ink)}
+.ai-step.done::before{background:var(--ink-3);border-color:var(--ink-3)}
+.ai-step.cur::before{border-color:var(--amber)}
+.ai-step.gate-s::before{border-radius:3px;width:14px}
+.ai-step.gate-s span{display:inline-block;padding:2px 6px;border:1px solid var(--line-2);border-radius:4px}
+.airail.gating .gate-s span{border-color:var(--amber);color:var(--amber)}
+.ai-step.approved span{border-color:var(--live);color:var(--live)}
+.ai-pkt{position:absolute;left:0;top:0;width:12px;height:12px;border-radius:50%;background:var(--amber);box-shadow:0 0 12px 2px rgba(242,184,75,.5);transition:transform .7s var(--ease);pointer-events:none;display:none}
+.js .ai-pkt{display:block}
+.ai-det{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;min-height:64px;padding:16px 18px;border:1px solid var(--line);border-radius:var(--radius-m);background:rgba(11,14,20,.5)}
+.ai-det b{font:700 13px var(--mono);color:var(--amber)}
+.ai-det p{flex:1;min-width:240px;font-size:14.5px}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);margin-top:56px;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.pgrid article{padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pgrid h3{font-size:16px;margin-bottom:10px}
+.pgrid p{font-size:14.5px}
+.sub{font-size:var(--fs-h3);margin:88px 0 28px}
+.tools{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.tool{padding:28px;border:1px solid var(--line);border-radius:var(--radius-l);background:rgba(11,14,20,.4)}
+.tool.wide{grid-column:1/-1;display:grid;grid-template-columns:1.2fr 1fr;gap:32px}
+.tool h4{font-size:17px}
+.stack{font:500 12px var(--mono);color:var(--amber);margin:6px 0 12px}
+.tool p{font-size:14.5px}
+.check{display:grid;grid-template-columns:1fr 1fr;gap:6px 20px;margin-top:18px}
+.check li{position:relative;padding-left:22px;font-size:13.5px}
+.check li::before{content:'';position:absolute;left:0;top:.35em;width:12px;height:12px;border:1px solid rgba(69,212,131,.6);border-radius:3px;background:var(--live-bg)}
+.check li::after{content:'';position:absolute;left:4px;top:calc(.35em + 2px);width:3px;height:6px;border:solid var(--live);border-width:0 1.5px 1.5px 0;transform:rotate(45deg)}
+.dash{align-self:start;padding:18px;border:1px solid var(--line-2);border-radius:8px;background:var(--bg-deep)}
+.dash-h{display:flex;justify-content:space-between;font:500 11.5px var(--mono);color:var(--ink-3);margin-bottom:12px}
+.dash svg{width:100%;height:120px;display:block}
+.dash path{fill:none;stroke-width:1.5;stroke-linejoin:round}
+.dash-k{display:flex;gap:16px;margin-top:10px;font:500 11.5px var(--mono);color:var(--ink-3)}
+.dash-k i{display:inline-block;width:10px;height:2px;margin-right:6px;vertical-align:middle}
+
+/* quality */
+.layers{display:grid;gap:6px;margin-top:28px}
+.layers li{padding:14px 18px;border:1px solid var(--line-2);border-radius:6px;background:var(--bg-deep);font:500 13px var(--mono);color:var(--ink);display:flex;justify-content:space-between;gap:12px}
+.layers li small{color:var(--ink-3);font-size:11.5px}
+.layers li:nth-child(2){margin:0 14px}.layers li:nth-child(3){margin:0 28px}.layers li:nth-child(4){margin:0 42px}.layers li:nth-child(5){margin:0 56px;border-color:rgba(242,184,75,.4)}
+.tests{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:8px}
+.tests li{padding:20px;border:1px solid var(--line);border-radius:var(--radius-m);background:rgba(11,14,20,.45)}
+.tests li:last-child{grid-column:1/-1}
+.tn{display:block;font:700 34px/1 var(--mono);color:var(--ink);letter-spacing:-.03em;margin-bottom:8px;font-variant-numeric:tabular-nums;min-width:3ch}
+.tests li:nth-child(-n+2) .tn{color:var(--live)}
+.tests p{font-size:13.5px}
+.q2{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+
+/* cognizant */
+.cz{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cz article{padding:28px;border:1px solid var(--line);border-radius:var(--radius-l);background:rgba(11,14,20,.4)}
+.cz h3{font-size:19px;margin-bottom:16px}
+.cz p{font-size:14.5px;margin-top:10px}
+.cz .chips{margin-top:18px}
+.stream{position:relative;height:22px;margin:14px 0 4px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden}
+.stream i{position:absolute;top:8px;left:-8px;width:5px;height:5px;border-radius:50%;background:var(--live);animation:dots 3.2s linear infinite;animation-delay:calc(var(--k)*-.27s)}
+.stream i:nth-child(3n){background:var(--amber);top:4px}
+.stream i:nth-child(4n){top:13px}
+@keyframes dots{to{transform:translateX(calc(100cqw + 16px))}}
+.stream{container-type:inline-size}
+.mbars{display:grid;gap:12px;margin-top:4px}
+.mbars li{display:grid;grid-template-columns:56px 1fr;gap:12px;align-items:center;font-size:13.5px}
+.mbars b{font:700 15px var(--mono);color:var(--ink)}
+.mbars span{display:block}
+.mbars .bar{height:4px;border-radius:2px;background:var(--line);margin-top:6px;overflow:hidden}
+.mbars .bar i{display:block;height:100%;width:var(--w);background:var(--live);transform-origin:left;transition:transform 1.1s var(--ease)}
+@media (prefers-reduced-motion:no-preference){.js .mbars:not(.is-drawn) .bar i{transform:scaleX(0)}}
+
+/* builds */
+.feat{padding:32px;border:1px solid var(--line);border-radius:var(--radius-l);background:rgba(11,14,20,.45)}
+.feat-top{display:grid;grid-template-columns:1.4fr 1fr;gap:40px;align-items:start}
+.feat h3{margin-bottom:14px}
+.gauge{padding:18px;border:1px solid var(--line-2);border-radius:8px;background:var(--bg-deep);text-align:center}
+.gauge svg{width:180px;height:100px;display:block;margin:0 auto}
+.gauge .g-bg{stroke:var(--line-2)}
+.gauge .g-val{stroke:var(--live);stroke-dasharray:1;transition:stroke-dashoffset .9s var(--ease),stroke .4s}
+.gauge.alert .g-val{stroke:var(--amber)}
+.g-num{font:700 28px var(--mono);color:var(--ink);margin-top:-34px;font-variant-numeric:tabular-nums}
+.g-st{font:500 12px var(--mono);color:var(--live);margin-top:10px;min-height:2.8em}
+.gauge.alert .g-st{color:var(--amber)}
+.g-cap{font:500 11px var(--mono);color:var(--ink-3);margin-top:6px}
+.tlink{font:700 13.5px var(--mono);color:var(--amber);text-decoration:underline;text-underline-offset:4px;text-decoration-color:rgba(242,184,75,.4);display:inline-flex;align-items:center;min-height:44px}
+.tlink:hover{color:var(--amber-hi);text-decoration-color:var(--amber-hi)}
+.minis{margin-top:14px;border-top:1px solid var(--line)}
+.mini{display:grid;grid-template-columns:260px 1fr 180px;gap:24px;align-items:baseline;padding:20px 0;border-bottom:1px solid var(--line)}
+.mini h3{font-size:15px}
+.mini p{font-size:14.5px}
+.mini .muted,.mini .tlink{justify-self:end;font:500 12.5px var(--mono);color:var(--ink-3)}
+.mini .tlink{color:var(--amber);min-height:0}
+
+/* journey */
+.tl{position:relative;padding-left:40px;max-width:820px;--fill:0}
+.tl::before,.tl::after{content:'';position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.tl::after{background:var(--amber);bottom:auto;height:calc(var(--fill)*(100% - 12px))}
+html:not(.js) .tl{--fill:1}
+.tl li{position:relative;padding-bottom:44px}
+.tl li:last-child{padding-bottom:0}
+.tl li::before{content:'';position:absolute;left:-40px;top:6px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:1px solid var(--line-2);transition:background .35s,border-color .35s,box-shadow .35s}
+.tl li.lit::before{background:var(--amber);border-color:var(--amber);box-shadow:0 0 0 5px rgba(242,184,75,.12)}
+.tl-d{font:500 12.5px var(--mono);color:var(--ink-3)}
+.tl h3{font-size:18px;margin:6px 0 4px}
+.tl-co{font:500 12.5px var(--mono);color:var(--ink-3);margin-bottom:6px}
+.tl p:last-child{max-width:62ch}
+html:not(.js) .tl li::before{background:var(--amber);border-color:var(--amber)}
+
+/* capabilities */
+.caps{display:grid;grid-template-columns:1fr 1fr;gap:0 64px}
+.caps div{display:grid;grid-template-columns:200px 1fr;gap:20px;padding:18px 0;border-top:1px solid var(--line)}
+.caps dt{font:700 13px var(--mono);color:var(--ink)}
+.caps dd{margin:0;font-size:14.5px}
+
+/* contact */
+.contact h2{font-size:clamp(32px,4.6vw,58px);max-width:18ch}
+.c-acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:36px}
+.copy{min-width:88px}
+.foot{padding:36px 0 48px;border-top:1px solid var(--line);font:500 12.5px var(--mono);color:var(--ink-3)}
+
+/* palette + toast */
+dialog.pal{padding:0;border:1px solid var(--line-2);border-radius:var(--radius-l);background:var(--bg-deep);color:var(--ink);width:min(560px,calc(100vw - 32px));margin:12vh auto auto;max-height:70vh}
+dialog.pal::backdrop{background:rgba(5,7,10,.65);-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px)}
+dialog.pal[open]{animation:pal .22s var(--ease)}
+@keyframes pal{from{opacity:0;transform:translateY(-8px) scale(.985)}}
+.pal-in{display:flex;flex-direction:column;max-height:70vh}
+.pal input{width:100%;padding:18px 20px;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);font:500 15px var(--mono);outline:none}
+.pal input::placeholder{color:var(--ink-3)}
+.pal ul{overflow:auto;padding:8px}
+.pal li{display:flex;justify-content:space-between;gap:12px;align-items:center;min-height:44px;padding:8px 12px;border-radius:var(--radius-m);font:500 13.5px var(--mono);color:var(--ink-2);cursor:pointer}
+.pal li small{font-size:11px;color:var(--ink-3)}
+.pal li[aria-selected="true"]{background:var(--bg-raise);color:var(--ink);box-shadow:inset 2px 0 0 var(--amber)}
+.pal-empty{padding:18px 12px;color:var(--ink-3);font:500 13px var(--mono)}
+.pal-f{display:flex;gap:14px;padding:10px 16px;border-top:1px solid var(--line);font:500 11px var(--mono);color:var(--ink-3)}
+.toast{position:fixed;left:50%;bottom:28px;z-index:80;transform:translate(-50%,16px);opacity:0;padding:10px 16px;border:1px solid rgba(69,212,131,.5);border-radius:var(--radius-m);background:var(--bg-deep);color:var(--live);font:500 13px var(--mono);pointer-events:none;transition:opacity .25s,transform .25s var(--ease)}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* responsive */
+@media (max-width:1280px){.seg-l{display:none}.nav a{padding:8px 7px}}
+@media (max-width:1100px){.work{grid-template-columns:200px 1fr;gap:40px}.clock{display:none}.fx{grid-template-columns:220px 1fr}.airail{grid-template-columns:repeat(4,1fr);row-gap:8px}.airail::before{display:none}.mini{grid-template-columns:220px 1fr}.mini .muted,.mini .tlink{grid-column:2;justify-self:start}}
+@media (max-width:900px){
+  .nav,.kbtn,.hdr-c{display:none!important}
+  .js .menu{display:inline-flex}
+  .hdr-in{grid-template-columns:1fr auto;gap:12px}
+  .hero{min-height:auto}
+  .hero-grid{grid-template-columns:1fr;gap:40px;padding-top:40px}
+  .metrics{grid-template-columns:1fr 1fr}
+  .metrics li{padding:20px 16px 22px}
+  .metrics li:nth-child(odd){border-left:0;padding-left:0}
+  .metrics li:nth-child(n+3){border-top:1px solid var(--line)}
+  .glance{grid-template-columns:1fr}
+  .glance article,.glance article+article{padding:24px 0;border-left:0;border-bottom:1px solid var(--line)}
+  .work{grid-template-columns:1fr;gap:24px}
+  .rail{top:var(--hdr);z-index:20;margin:0 calc(var(--pad-x)*-1);padding:8px var(--pad-x);background:rgba(18,22,29,.94);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .rail ul{flex-direction:row;overflow-x:auto;gap:8px;scrollbar-width:none}
+  .rail ul::-webkit-scrollbar{display:none}
+  .rail a{white-space:nowrap;padding:8px 12px;min-height:40px;border:1px solid var(--line-2);border-radius:var(--radius-s);overflow:hidden}
+  .rail a::before{display:none}
+  .rail a::after{top:auto;bottom:0;height:2px;width:calc(var(--p)*100%)}
+  .rail a.on{border-color:var(--ink-3)}
+  .rail small{display:none}
+  .case[id],.case [id]{scroll-margin-top:128px}
+  .fx{grid-template-columns:1fr}
+  .js .fx-tabs{flex-direction:row;overflow-x:auto;border-right:0;border-bottom:1px solid var(--line);scrollbar-width:none}
+  .fx-tabs button{white-space:nowrap;min-height:44px}
+  .fx-tabs button[aria-selected="true"]::before{left:12px;right:12px;top:auto;bottom:2px;width:auto;height:2px}
+  .az,.rt-under,.q2,.cz,.feat-top,.tool.wide{grid-template-columns:1fr}
+  .q2{gap:88px}
+  .pgrid{grid-template-columns:1fr 1fr}
+  .tools{grid-template-columns:1fr}
+  .caps{grid-template-columns:1fr}
+  .seg-g button{min-height:36px}
+}
+@media (max-width:720px){
+  .diagram{padding:20px}
+  .flow{flex-direction:column;align-items:stretch}
+  .node,.flow-sm .node{flex:none;width:100%;height:auto;min-height:56px}
+  .wire{flex:none;width:1px;min-width:0;height:26px;align-self:center}
+  .wire::before{transform-origin:top}
+  .pkt{left:50%;top:0;margin:-5px 0 0 -5px}
+  .logic{flex-direction:column;align-items:stretch}
+  .logic .wire{flex:none;height:22px}
+  .and{margin:0 auto;border-radius:0 0 28px 28px;height:48px}
+  .airail{grid-template-columns:1fr;padding-left:0}
+  .ai-step{padding:4px 0 18px 28px}
+  .pgrid{grid-template-columns:1fr}
+  .devices{grid-template-columns:1fr}
+  .check{grid-template-columns:1fr}
+  .caps div{grid-template-columns:1fr;gap:6px}
+  .mini{grid-template-columns:1fr;gap:6px}
+  .mini .muted,.mini .tlink{grid-column:1}
+  .ll{grid-template-columns:100px 1fr}
+  .ll .m{grid-column:1/-1;margin-top:-2px}
+  .log{height:300px}
+  .layers li:nth-child(n){margin:0}
+}
+@media (prefers-reduced-motion:no-preference) and (max-width:720px){.js .flow:not(.is-drawn) .wire::before{transform:scaleY(0)}}
+@media (max-width:420px){
+  .seg-g button{padding:0 8px;font-size:12px}
+  .logo span{display:none}
+  .term-bar small{display:none}
+  .tests{grid-template-columns:1fr}
+  .btn{width:100%}
+  .acts .btn,.c-acts .btn{width:auto;flex:1 1 auto}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .dot{box-shadow:none}
+}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
-<canvas id="particles" aria-hidden="true"></canvas>
-<div class="grid-bg" aria-hidden="true"></div>
-<div id="cursor" aria-hidden="true"></div>
-<div id="cursorDot" aria-hidden="true"></div>
 
-<header class="nav" id="nav">
-  <a class="logo" href="#top" aria-label="Mirza Tabish Hasan, back to top"><span class="logo-icon" aria-hidden="true">MT</span><span>tabish<span class="accent">.dev</span></span></a>
-  <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu"><span></span><span></span><span></span></button>
-  <nav id="navMenu" class="nav-menu" aria-label="Primary">
-    <ul>
-      <li><a href="#glance">30-sec</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#ai">AI-Native</a></li>
-      <li><a href="#quality">Quality</a></li>
-      <li><a href="#cognizant">Cognizant</a></li>
-      <li><a href="#journey">Journey</a></li>
-    </ul>
-    <a href="#contact" class="nav-cta">Contact</a>
-  </nav>
+<header class="hdr boot" style="--d:0s">
+  <div class="hdr-in">
+    <a class="logo" href="#top" aria-label="tabish.dev, back to top"><span class="dot" aria-hidden="true"></span>tabish.dev</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#glance" data-spy>30-second read</a><a href="#work" data-spy>Work</a><a href="#ai" data-spy>AI-native</a><a href="#quality" data-spy>Quality</a><a href="#cognizant" data-spy>Cognizant</a><a href="#journey" data-spy>Journey</a>
+    </nav>
+    <div class="hdr-r">
+      <span class="clock hdr-c"><b id="clock">--:--:--</b> Hyderabad</span>
+      <div class="seg" role="group" aria-label="Reading as"><span class="seg-l" aria-hidden="true">Reading as</span><span class="seg-g"><button type="button" data-set-view="product" aria-pressed="true">Product</button><button type="button" data-set-view="engineer" aria-pressed="false">Engineer</button></span></div>
+      <button type="button" class="kbtn" data-palette aria-label="Open command palette"><kbd id="kmod">Ctrl</kbd><kbd>K</kbd></button>
+      <a href="#contact" class="btn btn-sm hdr-c">Contact</a>
+      <button type="button" class="menu" data-palette aria-label="Open menu"><span></span></button>
+    </div>
+  </div>
+  <span class="prog" id="prog" aria-hidden="true"></span>
 </header>
+<p id="live" class="sr" aria-live="polite"></p>
 
 <main id="main">
 
-<!-- HERO -->
 <section class="hero" id="top" aria-labelledby="heroTitle">
   <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow"><span class="pulse" aria-hidden="true"></span>Software Engineer · Zenoti · Hyderabad</p>
-      <h1 id="heroTitle">Mirza Tabish Hasan<span class="hero-sub-title">Building <em>real-time systems</em>, <em>AI-native workflows</em>, and production-scale platforms.</span></h1>
-      <p class="lede">I design and ship backend and cross-platform features for Zenchat, Zenoti's live messaging product: the real-time pipeline, the plan-tier features customers upgrade for, and the shared platform code other teams build on. I measure before and after, and I run AI agents inside a reviewed engineering workflow.</p>
-      <div class="hero-actions">
-        <a href="#work" class="btn btn-primary">See the engineering work</a>
-        <a href="mailto:mirzatabish8065@gmail.com" class="btn btn-ghost">Email me</a>
-        <a href="./assets/resume/Mirza-Tabish-Hasan-Resume.pdf" class="btn btn-ghost" data-resume hidden target="_blank" rel="noopener noreferrer">View resume</a>
-        <a href="./assets/resume/Mirza-Tabish-Hasan-Resume.pdf" class="btn btn-ghost" data-resume hidden download="Mirza-Tabish-Hasan-Resume.pdf">Download resume</a>
+    <div>
+      <p class="role boot" style="--d:.15s"><span class="dot" aria-hidden="true"></span>Mirza Tabish Hasan · Software Engineer at Zenoti, Hyderabad</p>
+      <h1 id="heroTitle" class="boot" style="--d:.3s">Real-time systems, built and measured in production.</h1>
+      <p class="lede boot" style="--d:.45s">I design and ship backend and cross-platform features for Zenchat, Zenoti's live messaging product: the real-time pipeline, the plan-tier features customers upgrade for, and the shared platform code other teams build on. I measure before and after, and I run AI agents inside a reviewed engineering workflow.</p>
+      <div class="acts boot" style="--d:.6s">
+        <a href="#work" class="btn btn-amber">See the engineering work</a>
+        <a href="mailto:mirzatabish8065@gmail.com" class="btn">Email me</a>
       </div>
     </div>
-    <aside class="exp" aria-label="Professional experience counter">
-      <p class="exp-label">// shipping since 19.09.2023</p>
-      <div class="exp-grid">
-        <div class="exp-unit"><span class="exp-num" id="expY">2</span><span class="exp-txt">Years</span></div>
-        <div class="exp-unit"><span class="exp-num" id="expM">—</span><span class="exp-txt">Months</span></div>
-        <div class="exp-unit"><span class="exp-num" id="expD">—</span><span class="exp-txt">Days</span></div>
-      </div>
-      <div class="exp-grid exp-small" aria-hidden="true">
-        <div class="exp-unit"><span class="exp-num" id="expH">00</span><span class="exp-txt">Hrs</span></div>
-        <div class="exp-unit"><span class="exp-num" id="expMi">00</span><span class="exp-txt">Min</span></div>
-        <div class="exp-unit"><span class="exp-num" id="expS">00</span><span class="exp-txt">Sec</span></div>
-      </div>
-    </aside>
+    <div class="term boot" style="--d:.75s" id="term">
+      <div class="term-bar"><span class="dot" aria-hidden="true"></span>events<small>simulated, from the systems in the case studies</small></div>
+      <p class="sr">A simulated event log from the systems described below: change stream events, SignalR fan-out, presence, paginated APIs, export jobs, rate limiting, retention, authorization, storage and membership events.</p>
+      <div class="log" id="log" aria-hidden="true"></div>
+      <div class="term-foot"><span>shipping since 19 Sep 2023</span><b id="uptime">—</b></div>
+    </div>
   </div>
   <div class="wrap">
-    <ul class="metrics" aria-label="Headline impact">
-      <li class="metric"><span class="metric-val">20s → &lt;1s</span><span class="metric-lbl">Critical API response time, three production APIs</span></li>
-      <li class="metric"><span class="metric-val"><span data-count="70">70</span>%</span><span class="metric-lbl">Faster client load after an attachment contract redesign</span></li>
-      <li class="metric"><span class="metric-val">2 days → 5 min</span><span class="metric-lbl">Manual feed processing replaced by event-driven automation</span></li>
-      <li class="metric"><span class="metric-val"><span data-count="500">500</span>K/day</span><span class="metric-lbl">Telemetry records processed at 99.9% accuracy</span></li>
+    <ul class="metrics boot" style="--d:.9s" aria-label="Headline impact">
+      <li><span class="mv">20s to under 1s</span><span class="mc">Critical API response time, three production APIs</span><svg class="spark" viewBox="0 0 120 28" aria-hidden="true"><path pathLength="1" d="M0 4 L22 5 L42 4 L56 6 L66 22 L82 24 L102 23 L120 24"/></svg></li>
+      <li><span class="mv">70% faster</span><span class="mc">Client load after the attachment contract redesign</span><svg class="spark" viewBox="0 0 120 28" aria-hidden="true"><path pathLength="1" d="M0 6 L28 7 L48 6 L62 19 L90 20 L120 20"/></svg></li>
+      <li><span class="mv">2 days to 5 min</span><span class="mc">Manual feed processing replaced by event-driven automation</span><svg class="spark" viewBox="0 0 120 28" aria-hidden="true"><path pathLength="1" d="M0 3 L40 4 L52 25 L120 25"/></svg></li>
+      <li><span class="mv">500K a day</span><span class="mc">Telemetry records processed at 99.9% accuracy</span><svg class="spark" viewBox="0 0 120 28" aria-hidden="true"><path pathLength="1" d="M0 24 L20 20 L40 21 L60 14 L80 12 L100 7 L120 4"/></svg></li>
     </ul>
   </div>
 </section>
 
-<!-- 30 SECOND READ -->
 <section id="glance" class="section" aria-labelledby="glanceTitle">
   <div class="wrap">
-    <p class="kicker">The 30-second read</p>
-    <h2 id="glanceTitle">If you only read one section, read this.</h2>
+    <header class="sec-head"><p class="kicker">The 30-second read</p><h2 id="glanceTitle">If you only read one section, read this.</h2></header>
     <div class="glance">
-      <article class="glance-card reveal">
-        <h3>Who</h3>
-        <p>Software Engineer at <strong>Zenoti</strong> since Jan 2026. Before that, <strong>Cognizant</strong>, Sep 2023 to Jan 2026. Backend-leaning full-stack: .NET, MongoDB, SignalR, Flutter, Azure, AWS.</p>
-      </article>
-      <article class="glance-card reveal rd1">
-        <h3>What I ship</h3>
-        <p>Zenchat's real-time messaging infrastructure, plan-tier product features that drive upgrades, a streaming storage library used across the company, and performance fixes with measured results.</p>
-      </article>
-      <article class="glance-card reveal rd2">
-        <h3>How I work</h3>
-        <p>Design first (plan, HLD, LLD, event diagrams), verified against source. Measure before and after. AI agents with ticket, repo, and telemetry context, and a human approving every change.</p>
-      </article>
+      <article><h3>Who</h3><p>Software Engineer at <strong>Zenoti</strong> since Jan 2026. Before that, <strong>Cognizant</strong>, Sep 2023 to Jan 2026. Backend-leaning full-stack: .NET, MongoDB, SignalR, Flutter, Azure, AWS.</p></article>
+      <article><h3>What I ship</h3><p>Zenchat's real-time messaging infrastructure, plan-tier product features that drive upgrades, a streaming storage library used across the company, and performance fixes with measured results.</p></article>
+      <article><h3>How I work</h3><p>Design first (plan, HLD, LLD, event diagrams), verified against source. Measure before and after. AI agents with ticket, repo, and telemetry context, and a human approving every change.</p></article>
     </div>
-    <div class="terms reveal" aria-label="Engineering vocabulary from my work">
-      <span class="terms-lbl">Terms from my work</span>
-      <ul class="chips">
-        <li>MongoDB Change Streams</li><li>SignalR fan-out</li><li>Keyset pagination</li><li>Idempotent async jobs</li><li>Owner-fenced locks</li><li>Atomic Lua token bucket</li><li>Composable policy pipeline</li><li>Block-staged streaming upload</li><li>Negative caching</li><li>BLoC + composition root</li><li>Characterization tests</li><li>MCP-connected agents</li>
+    <div class="terms">
+      <p class="terms-l">Terms from my work</p>
+      <ul class="chips" aria-label="Engineering vocabulary from my work">
+        <li><a class="chip term-c" href="#case-realtime" data-tip="Database change events feed a SignalR hub, so clients never poll.">MongoDB Change Streams</a></li>
+        <li><a class="chip term-c" href="#case-realtime" data-tip="The hub fans events out over WebSockets to the Flutter apps on iOS, Android and web.">SignalR fan-out</a></li>
+        <li><a class="chip term-c" href="#case-features" data-tab="files" data-tip="Shared files hub: a compound multikey index plus keyset pagination.">Keyset pagination</a></li>
+        <li><a class="chip term-c" href="#case-features" data-tab="export" data-tip="Conversation export: a deduplication key turns a double-click into a 409 instead of a second job.">Idempotent async jobs</a></li>
+        <li><a class="chip term-c" href="#case-reliability" data-tip="Pod-aware onboarding queue: owner-fenced locks, taken only when writes begin.">Owner-fenced locks</a></li>
+        <li><a class="chip term-c" href="#case-reliability" data-tip="A Redis-backed token bucket evaluated in a single atomic Lua script.">Atomic Lua token bucket</a></li>
+        <li><a class="chip term-c" href="#case-authz" data-tip="Small, independently testable policies return a decision with a reason and obligations.">Composable policy pipeline</a></li>
+        <li><a class="chip term-c" href="#case-storage" data-tip="Content is written as blocks and committed once, so a large file never sits whole in memory.">Block-staged streaming upload</a></li>
+        <li><a class="chip term-c" href="#case-reliability" data-tip="Negative caching for organization settings, so repeated lookups for missing records stop hitting the database.">Negative caching</a></li>
+        <li><a class="chip term-c" href="#quality-arch" data-tip="A composition root owns long-lived services. Screens receive dependencies and never construct them.">BLoC + composition root</a></li>
+        <li><a class="chip term-c" href="#quality-tests" data-tip="Characterization tests first, so a refactor proves it changed structure and not behavior.">Characterization tests</a></li>
+        <li><a class="chip term-c" href="#ai" data-tip="MCP connections give the agent the ticket, design docs, live telemetry, API collections and data shape.">MCP-connected agents</a></li>
       </ul>
     </div>
-    <div class="depth-toggle reveal">
-      <p>Every case study below leads with problem and result. Engineers can open the design, patterns, and trade-offs.</p>
-      <button type="button" class="btn btn-ghost" id="depthBtn" aria-pressed="false" hidden>Engineer view: expand all design details</button>
-    </div>
+    <p class="cap-line">Every case study leads with problem and result. Switch to engineer view for design, patterns and trade-offs. <button type="button" class="btn btn-sm" data-set-view="toggle">Switch to engineer view</button></p>
   </div>
 </section>
 
-<!-- ZENOTI WORK -->
 <section id="work" class="section" aria-labelledby="workTitle">
   <div class="wrap">
-    <p class="kicker">Zenoti · Jan 2026 — present</p>
-    <h2 id="workTitle">Production work on Zenchat, a real-time messaging platform</h2>
-    <p class="section-lede">Zenchat is Zenoti's cross-platform staff messaging product on iOS, Android, and web. My work spans the .NET backend, MongoDB, the real-time layer, and the Flutter client. Product internals are generalized here.</p>
-
-    <div class="cases">
-      <article class="case case-wide reveal">
-        <div class="case-head"><span class="tag tag-rt">Real-time · Distributed</span><h3>Real-time messaging pipeline</h3></div>
-        <p class="case-problem"><strong>Problem.</strong> Messages, presence, and typing indicators had to reach every connected device the moment data changed, without clients polling.</p>
-        <p><strong>What I did.</strong> I designed and maintain the path from database writes to live clients. Database change events feed a SignalR hub, which fans them out over WebSockets to the Flutter apps.</p>
-        <ol class="flow" aria-label="Message flow">
-          <li>Database write</li><li>Change Stream event</li><li>Event mapping and authorization</li><li>SignalR hub</li><li>WebSocket clients</li>
-        </ol>
-        <p class="impact"><strong>Result.</strong> Live delivery, presence, and typing across iOS, Android, and web.</p>
-        <details data-depth>
-          <summary>Design and patterns</summary>
-          <ul>
-            <li>Observer and publish/subscribe over database change events instead of request polling.</li>
-            <li>Server-authoritative access. Removed members keep the history they were allowed to see, but receive no new live events.</li>
-            <li>Membership changes go out as metadata events. The visible timeline is persisted as messages, so reconnecting clients rebuild it from history.</li>
-            <li>On the client, one realtime session is owned at the composition root and injected, not constructed by each screen.</li>
-          </ul>
-          <ul class="chips chips-sm"><li>Observer</li><li>Pub/Sub</li><li>Fan-out</li><li>Server-authoritative state</li><li>WebSockets</li></ul>
-        </details>
-      </article>
-
-      <article class="case reveal">
-        <div class="case-head"><span class="tag tag-perf">Performance</span><h3>Critical API optimization</h3></div>
-        <div class="before-after" aria-label="Response time before and after">
-          <div class="ba-row"><span class="ba-lbl">Before</span><span class="ba-bar ba-before"><span>~20s</span></span></div>
-          <div class="ba-row"><span class="ba-lbl">After</span><span class="ba-bar ba-after"><span>&lt;1s</span></span></div>
-        </div>
-        <p class="case-problem"><strong>Problem.</strong> Three critical APIs took about 20 seconds and held up dependent screens.</p>
-        <p class="impact"><strong>Result.</strong> Under 1 second, roughly a 90% reduction.</p>
-        <details data-depth>
-          <summary>Design and patterns</summary>
-          <ul>
-            <li>Removed redundant database round trips and N+1 lookups in the response path.</li>
-            <li>Projections that return only the fields the client renders.</li>
-            <li>Independent I/O runs in parallel (fan-out, then fan-in) instead of sequentially.</li>
-            <li>Slim versioned endpoints with batched settings reads and cache-aware fetches, plus a paginated participants endpoint with no N+1.</li>
-          </ul>
-          <ul class="chips chips-sm"><li>Projection</li><li>Batching</li><li>Parallel fan-out/fan-in</li><li>Cache-aside</li><li>API versioning</li></ul>
-        </details>
-      </article>
-
-      <article class="case reveal rd1">
-        <div class="case-head"><span class="tag tag-perf">API design</span><h3>Attachment contract redesign</h3></div>
-        <p class="big-num"><span data-count="70">70</span>% <small>faster client load</small></p>
-        <p class="case-problem"><strong>Problem.</strong> Clients fetched appointment and invoice data again every time an attachment was rendered.</p>
-        <p><strong>What I did.</strong> I redesigned the contract so that data travels inside the message payload. It also covers group bookings, multi-service appointments, and two guest-profile versions.</p>
-        <p class="impact"><strong>Result.</strong> Redundant backend calls removed and client load time down 70%.</p>
-        <details data-depth>
-          <summary>Design and patterns</summary>
-          <ul>
-            <li>Data is enriched once at write time and read many times, so render time no longer pays for it.</li>
-            <li>Backward compatible, so older mobile builds keep working during rollout.</li>
-            <li>A versioned guest-profile shape served from the same contract.</li>
-          </ul>
-          <ul class="chips chips-sm"><li>Write-time denormalization</li><li>Contract versioning</li><li>Backward compatibility</li></ul>
-        </details>
-      </article>
-    </div>
-
-    <!-- REVENUE FEATURES -->
-    <div class="subsection">
-      <h3 class="sub-title">Features that sell the paid plan</h3>
-      <p class="section-lede">Most of these ship behind plan entitlements. They are the capabilities that move customers to a higher tier, and I built them end to end: API, data model, real-time events, and Flutter UI.</p>
-      <div class="features">
-        <article class="feature reveal">
-          <h4>Cross-center messaging and search</h4>
-          <p>Staff at multi-location businesses can message and search across every location they are assigned to, from one interface.</p>
-          <details data-depth><summary>How it works</summary><ul><li>Each user's reach is derived from their role-to-location assignments. Nobody gets org-wide reach by default.</li><li>One location-agnostic direct room per user pair, with location labels added per message.</li><li>Access is validated when a message is sent, not only when the room is created.</li><li>Backend query layer plus the Flutter search experience.</li></ul></details>
-        </article>
-        <article class="feature reveal rd1">
-          <h4>Tier-aware message lifecycle</h4>
-          <p>The server decides retention from the customer's plan: time-boxed on free, kept on paid, and recoverable after an upgrade.</p>
-          <details data-depth><summary>How it works</summary><ul><li>Plan stored with location settings and read atomically, with no joins.</li><li>Cleanup excludes the paid minority with a denylist, so new locations default safely to free.</li><li>Paid IDs are re-read every batch, so a customer who upgrades mid-run is never purged.</li><li>Recovery uses cursor pagination, constant cost per page instead of offset skips.</li></ul></details>
-        </article>
-        <article class="feature reveal rd2">
-          <h4>Conversation export</h4>
-          <p>Authorized users export a conversation to a file. The export runs asynchronously and ends in a time-limited download link.</p>
-          <details data-depth><summary>How it works</summary><ul><li>Request, then an event-stream message, then a worker that builds the file with block-staged upload, then a pre-signed download URL.</li><li>A deduplication key turns a double-click into a 409 instead of a second job.</li><li>Lease-based ownership, so a crashed worker never leaves a job stuck forever.</li><li>The same authorization and history-visibility window as reading the chat.</li></ul></details>
-        </article>
-        <article class="feature reveal">
-          <h4>Group membership administration</h4>
-          <p>Admins add, remove, promote, and dismiss members. Leaving and re-joining behave predictably for history and live access.</p>
-          <details data-depth><summary>How it works</summary><ul><li>Invariant: the last active admin cannot leave until they promote someone.</li><li>Atomic document updates, plus a per-room Redis lock that fails open so it never blocks writes.</li><li>Re-adding a member never shrinks history they were previously granted.</li><li>Real-time membership events keep every device consistent.</li></ul></details>
-        </article>
-        <article class="feature reveal rd1">
-          <h4>Shared files hub</h4>
-          <p>Every image, document, and business attachment in a conversation, browsable in one place for 1:1 and group chats.</p>
-          <details data-depth><summary>How it works</summary><ul><li>One endpoint per visible section, fetched only when the plan flag is on and the tab is open.</li><li>A compound multikey index plus keyset pagination. There is no separate hub collection to keep in sync.</li><li>Obeys the same history-visibility rules as the chat itself.</li></ul></details>
-        </article>
-        <article class="feature reveal rd2">
-          <h4>Permission-aware sharing</h4>
-          <p>Image and document sharing controlled per role and per plan, enforced on the server.</p>
-          <details data-depth><summary>How it works</summary><ul><li>Effective capability = role permission AND plan entitlement.</li><li>Delivered through the existing capability response, so the client needed no change.</li><li>Hiding a button is only UX. The server enforces the rule on send.</li></ul></details>
-        </article>
-      </div>
-    </div>
-
-    <!-- PLATFORM + ARCH -->
-    <div class="cases cases-2">
-      <article class="case reveal">
-        <div class="case-head"><span class="tag tag-plat">Platform · Company-wide</span><h3>Streaming storage library</h3></div>
-        <p class="case-problem"><strong>Problem.</strong> Large file exports and uploads could not be buffered in memory, and every team was solving storage separately.</p>
-        <p><strong>What I did.</strong> I generalized the export storage work into Zenoti's shared platform package, so any Zenoti service can use it. It is platform infrastructure, not a product feature.</p>
-        <ol class="flow flow-sm" aria-label="Upload flow"><li>Stream chunks</li><li>Stage blocks</li><li>Commit block list</li><li>Pre-signed URL</li></ol>
-        <details data-depth>
-          <summary>Design and patterns</summary>
-          <ul>
-            <li>Block-staged streaming upload. Content is written as blocks and committed once, so a large file never sits whole in memory.</li>
-            <li>Gzip compression and image thumbnail generation in the same package.</li>
-            <li>A storage provider abstraction, so callers depend on an interface and not a cloud SDK.</li>
-          </ul>
-          <ul class="chips chips-sm"><li>Streaming I/O</li><li>Staged commit</li><li>Adapter</li><li>Shared library design</li></ul>
-        </details>
-      </article>
-
-      <article class="case reveal rd1">
-        <div class="case-head"><span class="tag tag-arch">Architecture</span><h3>Composable authorization policy pipeline</h3></div>
-        <p class="case-problem"><strong>Problem.</strong> Plan, role, location-scope, membership, and masking checks were scattered across services, and each new action meant touching several of them.</p>
-        <p><strong>What I did.</strong> I designed one pipeline. The request model passes through small, independently testable policies and returns a decision with a reason and obligations.</p>
-        <ol class="flow flow-sm" aria-label="Policy pipeline"><li>Authorization request</li><li>Ordered policies</li><li>Decision + reason</li><li>Obligations</li></ol>
-        <details data-depth>
-          <summary>Design and patterns</summary>
-          <ul>
-            <li>Policies: plan entitlement, role permission, role scope, room membership, cross-location access, attachment location. Contact masking is an obligation, not an allow/deny.</li>
-            <li>Lazy evaluation, so expensive remote and database lookups run only when the action needs them.</li>
-            <li>The same evaluator powers both the UI capability response and backend enforcement, so the two cannot drift.</li>
-            <li>A new action is an enum value plus one catalog row. A new policy class is needed only for a new kind of rule. Existing 401/403 contracts are preserved.</li>
-          </ul>
-          <ul class="chips chips-sm"><li>Chain of Responsibility</li><li>Strategy</li><li>Specification</li><li>Policy Decision Point</li><li>Obligations</li></ul>
-        </details>
-      </article>
-    </div>
-
-    <!-- RELIABILITY GRID -->
-    <div class="subsection">
-      <h3 class="sub-title">Distributed coordination and reliability</h3>
-      <div class="features">
-        <article class="feature reveal">
-          <h4>Pod-aware onboarding queue</h4>
-          <p>Onboarding work runs on the regional deployment that owns the customer. No deployment steals another's queue.</p>
-          <details data-depth><summary>How it works</summary><ul><li>Each deployment claims its own work first, in FIFO order per organization.</li><li>Owner-fenced locks, taken only when writes begin.</li><li>Fail-closed routing: if ownership lookup fails, the work is not enqueued in the wrong place.</li><li>A black-box concurrency harness to prove the claims under contention.</li></ul></details>
-        </article>
-        <article class="feature reveal rd1">
-          <h4>Distributed rate limiting</h4>
-          <p>One per-client request limit enforced identically across every API pod.</p>
-          <details data-depth><summary>How it works</summary><ul><li>A Redis-backed token bucket evaluated in a single atomic Lua script, never read-compute-write.</li><li>Evaluated against GCRA. Both are smooth, with no fixed-window burst at boundaries.</li><li>Limiter state is visible on my observability dashboard.</li></ul></details>
-        </article>
-        <article class="feature reveal rd2">
-          <h4>Analytics and UI reliability</h4>
-          <p>Fixed a production analytics defect where the organization ID was emitted as 0 for enabled organizations, which had been silently corrupting downstream tracking. Resolved and hardened 15+ cross-platform UI issues: themes, timestamps, role filters, permissions, and rendering.</p>
-          <details data-depth><summary>How it works</summary><ul><li>Traced the bad identifier from the emitted event back to the code path, then corrected attribution at the source.</li><li>Negative caching for organization settings, so repeated lookups for missing records stop hitting the database.</li></ul></details>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- AI NATIVE -->
-<section id="ai" class="section section-alt" aria-labelledby="aiTitle">
-  <div class="wrap">
-    <p class="kicker">AI-native engineering</p>
-    <h2 id="aiTitle">Agents with context. Changes with review.</h2>
-    <p class="section-lede">I built an AI-assisted engineering environment on Claude and Cursor, connected to Jira, Confluence, New Relic, Postman, MongoDB, and Bitbucket context. I use it for root-cause analysis, code review, design packs, and cross-stack changes. AI speeds up the investigation. I own the decision.</p>
-
-    <ol class="pipeline reveal" aria-label="AI-assisted engineering workflow">
-      <li><span class="step">01</span>Engineering task</li>
-      <li><span class="step">02</span>Ticket context</li>
-      <li><span class="step">03</span>Repository and rules</li>
-      <li><span class="step">04</span>Telemetry evidence</li>
-      <li><span class="step">05</span>Plan and design pack</li>
-      <li><span class="step">06</span>Constrained change</li>
-      <li><span class="step">07</span>Tests and analysis</li>
-      <li class="step-human"><span class="step">08</span>Human approval</li>
-    </ol>
-
-    <div class="ai-grid">
-      <article class="ai-card reveal">
-        <h3>Context through MCP</h3>
-        <p>Model Context Protocol connections give the agent the ticket, the design docs, the live telemetry, the API collections, and the data shape. It reasons from evidence instead of guessing.</p>
-      </article>
-      <article class="ai-card reveal rd1">
-        <h3>Rules as guardrails</h3>
-        <p>Repository and agent rules encode the team's quality bar: braces on every block, no more than eight parameters, no dead code, minimal diffs, no formatting noise. Agent output then passes static analysis the first time.</p>
-      </article>
-      <article class="ai-card reveal rd2">
-        <h3>Design packs before code</h3>
-        <p>For each feature, a plan, HLD, LLD, event diagrams, and a team summary, each claim verified against source. Source code is the authority, not older docs.</p>
-      </article>
-      <article class="ai-card reveal">
-        <h3>Multi-dimension PR review</h3>
-        <p>Parallel review passes for correctness, client conventions, security and gating, and data regression, merged into one severity-ranked report with exact file and line citations.</p>
-      </article>
-      <article class="ai-card reveal rd1">
-        <h3>Safety by default</h3>
-        <p>Telemetry queries are read-only. No commit or push without explicit approval. Credentials never enter prompts or history. AI never replaces review.</p>
-      </article>
-      <article class="ai-card reveal rd2">
-        <h3>Root-cause analysis</h3>
-        <p>File and line, a one-line root cause, at most two hypotheses, then approval, then the fix. Evidence first, speculation never.</p>
-      </article>
-    </div>
-
-    <h3 class="sub-title">Engineering tools I built</h3>
-    <div class="tools">
-      <article class="tool reveal" id="observability">
-        <h4>Production observability dashboard</h4>
-        <p class="tool-stack">Python · Streamlit · NerdGraph / NRQL · Plotly</p>
-        <p>A one-command dashboard over New Relic that answers the questions an incident actually raises. It covers every production region plus QA and staging, and compares any two days side by side.</p>
-        <ul class="panel-list" aria-label="Dashboard panels">
-          <li>p95 / p99 latency by endpoint</li><li>Status-code mix and request rate</li><li>Webhook events by type, 5xx over time</li><li>Rate-limiter state and limited senders</li><li>Pod lifecycle and Kubernetes restarts</li><li>Process memory vs traffic vs 5xx</li><li>Database pressure vs latency</li><li>Datastore and external call time split</li><li>Scheduler claim timeline per pod</li><li>Day-over-day comparison</li>
+    <header class="sec-head"><p class="kicker">Zenoti · Jan 2026 — present</p><h2 id="workTitle">Production work on Zenchat, a real-time messaging platform</h2><p class="lede">Zenchat is Zenoti's cross-platform staff messaging product on iOS, Android, and web. My work spans the .NET backend, MongoDB, the real-time layer, and the Flutter client. Product internals are generalized here.</p></header>
+    <div class="work">
+      <nav class="rail" aria-label="Case studies">
+        <ul>
+          <li><a href="#case-realtime">Real-time pipeline<small>Real-time · Distributed</small></a></li>
+          <li><a href="#case-api">API optimization<small>Performance</small></a></li>
+          <li><a href="#case-attach">Attachment contract<small>API design</small></a></li>
+          <li><a href="#case-features">Paid-plan features<small>Product · Plan tiers</small></a></li>
+          <li><a href="#case-storage">Storage library<small>Platform · Company-wide</small></a></li>
+          <li><a href="#case-authz">Authorization pipeline<small>Architecture</small></a></li>
+          <li><a href="#case-reliability">Reliability<small>Distributed coordination</small></a></li>
         </ul>
-      </article>
-      <article class="tool reveal rd1">
-        <h4>PR impact analyzer</h4>
-        <p class="tool-stack">Python · Streamlit · Bitbucket API</p>
-        <p>Takes a pull request link or a raw diff and summarizes what changed and what it can affect, before a human reviewer starts.</p>
-      </article>
-      <article class="tool reveal rd2">
-        <h4>One-command API regression</h4>
-        <p class="tool-stack">.NET · Newman · Bash</p>
-        <p>Builds the service, boots it, polls health, runs every Postman collection, and prints a pass/fail summary by collection.</p>
-      </article>
-      <article class="tool reveal">
-        <h4>End-to-end smoke suite</h4>
-        <p class="tool-stack">Playwright · Node.js</p>
-        <p>Log in, open chat, send, search. The run fails on any required step or any 4xx/5xx from the product, including the SignalR hub. Console errors are classified as benign or unclassified, and each run gets a report with screenshots.</p>
-      </article>
+      </nav>
+      <div>
+        <article class="case" id="case-realtime" aria-labelledby="c1">
+          <span class="tag">Real-time · Distributed</span>
+          <h3 id="c1">Real-time messaging pipeline</h3>
+          <p><strong>Problem.</strong> Messages, presence, and typing indicators had to reach every connected device the moment data changed, without clients polling.</p>
+          <p><strong>What I did.</strong> I designed and maintain the path from database writes to live clients. Database change events feed a SignalR hub, which fans them out over WebSockets to the Flutter apps.</p>
+          <div class="result"><b>Result</b><p>Live delivery, presence, and typing across iOS, Android, and web.</p></div>
+          <div class="pane for-product"><div><p class="plain">Staff see new messages, who is online and who is typing the moment it happens, on any device, without the apps repeatedly asking the server.</p></div></div>
+          <div class="pane for-engineer"><div><p class="pane-h">Design and patterns</p><ul class="bul"><li>Observer and publish/subscribe over database change events instead of request polling.</li><li>Server-authoritative access. Removed members keep the history they were allowed to see, but receive no new live events.</li><li>Membership changes go out as metadata events. The visible timeline is persisted as messages, so reconnecting clients rebuild it from history.</li><li>On the client, one realtime session is owned at the composition root and injected, not constructed by each screen.</li></ul><ul class="chips"><li class="chip">Observer</li><li class="chip">Pub/Sub</li><li class="chip">Fan-out</li><li class="chip">Server-authoritative state</li><li class="chip">WebSockets</li></ul></div></div>
+          <div class="diagram">
+            <p class="dcap"><span>Message path</span><span>live</span></p>
+            <div class="flow" data-flow id="rtflow" aria-hidden="true">
+              <div class="node"><b>Database write</b><span>MongoDB</span></div><div class="wire"><i class="pkt"></i></div>
+              <div class="node"><b>Change Stream</b><span>event, no polling</span></div><div class="wire"><i class="pkt"></i></div>
+              <div class="node"><b>Map and authorize</b><span>per event</span></div><div class="wire"><i class="pkt"></i></div>
+              <div class="node"><b>SignalR hub</b><span>fan-out</span></div><div class="wire"><i class="pkt"></i></div>
+              <div class="node"><b>WebSocket clients</b><span>Flutter apps</span></div>
+            </div>
+            <div class="rt-under">
+              <div class="devices" id="devices" aria-hidden="true"><div class="device"><i></i>iOS session</div><div class="device"><i></i>Android session</div><div class="device"><i></i>Web session</div></div>
+              <div><p class="pane-h">Trace of one message</p><ol class="trace"><li>A message is written to MongoDB.</li><li>A Change Stream emits the event, with no polling.</li><li>The event is mapped and authorized. Removed members get no new live events.</li><li>The SignalR hub fans it out.</li><li>Flutter clients on iOS, Android and web receive it over WebSockets.</li></ol></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" id="case-api" aria-labelledby="c2">
+          <span class="tag">Performance</span>
+          <h3 id="c2">Critical API optimization</h3>
+          <p><strong>Problem.</strong> Three critical APIs took about 20 seconds and held up dependent screens.</p>
+          <div class="result"><b>Result</b><p>Under 1 second, roughly a 90% reduction.</p></div>
+          <div class="pane for-product"><div><p class="plain">Screens that used to wait around 20 seconds for data now load in under a second.</p></div></div>
+          <div class="pane for-engineer"><div><p class="pane-h">Design and patterns</p><ul class="bul"><li>Removed redundant database round trips and N+1 lookups in the response path.</li><li>Projections that return only the fields the client renders.</li><li>Independent I/O runs in parallel (fan-out, then fan-in) instead of sequentially.</li><li>Slim versioned endpoints with batched settings reads and cache-aware fetches, plus a paginated participants endpoint with no N+1.</li></ul><ul class="chips"><li class="chip">Projection</li><li class="chip">Batching</li><li class="chip">Parallel fan-out/fan-in</li><li class="chip">Cache-aside</li><li class="chip">API versioning</li></ul></div></div>
+          <div class="diagram">
+            <p class="dcap"><span>Response time, before and after</span><span>three production APIs</span></p>
+            <p class="sr">Response time: about 20 seconds before, under 1 second after.</p>
+            <div class="race" data-race data-from="20" data-to="1" data-dec="1" data-unit="s" data-final="&lt;1s">
+              <div class="race-row"><span>Before</span><span class="race-bar race-before"><i>~20s</i></span></div>
+              <div class="race-row"><span>After</span><span class="race-bar race-after" style="--w:5%"><i>&lt;1s</i></span></div>
+              <p class="race-out" aria-hidden="true"><span data-race-out>&lt;1s</span><small>roughly a 90% reduction</small></p>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" id="case-attach" aria-labelledby="c3">
+          <span class="tag">API design</span>
+          <h3 id="c3">Attachment contract redesign</h3>
+          <p><strong>Problem.</strong> Clients fetched appointment and invoice data again every time an attachment was rendered.</p>
+          <p><strong>What I did.</strong> I redesigned the contract so that data travels inside the message payload. It also covers group bookings, multi-service appointments, and two guest-profile versions.</p>
+          <div class="result"><b>Result</b><p>Redundant backend calls removed and client load time down 70%.</p></div>
+          <div class="pane for-product"><div><p class="plain">Appointment and invoice attachments open 70% faster because their data arrives with the message, and older app versions keep working during rollout.</p></div></div>
+          <div class="pane for-engineer"><div><p class="pane-h">Design and patterns</p><ul class="bul"><li>Data is enriched once at write time and read many times, so render time no longer pays for it.</li><li>Backward compatible, so older mobile builds keep working during rollout.</li><li>A versioned guest-profile shape served from the same contract.</li></ul><ul class="chips"><li class="chip">Write-time denormalization</li><li class="chip">Contract versioning</li><li class="chip">Backward compatibility</li></ul></div></div>
+          <div class="diagram">
+            <p class="dcap"><span>Render path</span><span>before and after</span></p>
+            <div class="lane"><p class="lane-l">Before</p><div class="flow flow-sm" data-flow aria-hidden="true"><div class="node"><b>Render</b></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Fetch appointment</b></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Fetch invoice</b></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Render</b></div></div></div>
+            <div class="lane"><p class="lane-l">After</p><div class="flow flow-sm" data-flow aria-hidden="true"><div class="node"><b>Message payload</b><span>data travels with it</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Render</b></div></div></div>
+            <ol class="sr"><li>Before: render, fetch appointment, fetch invoice, render.</li><li>After: data travels in the message payload, then render.</li></ol>
+            <p class="big"><span data-count="70">70</span>%<small>faster client load</small></p>
+          </div>
+        </article>
+
+        <article class="case" id="case-features" aria-labelledby="c4">
+          <span class="tag">Product · Plan tiers</span>
+          <h3 id="c4">Features that sell the paid plan</h3>
+          <p>Most of these ship behind plan entitlements. They are the capabilities that move customers to a higher tier, and I built them end to end: API, data model, real-time events, and Flutter UI.</p>
+          <div class="fx">
+            <div class="fx-tabs" role="tablist" aria-label="Paid-plan features" aria-orientation="vertical">
+              <button type="button" role="tab" id="t-cross" aria-controls="p-cross" aria-selected="true" data-key="cross">Cross-center messaging and search</button>
+              <button type="button" role="tab" id="t-life" aria-controls="p-life" aria-selected="false" tabindex="-1" data-key="life">Tier-aware message lifecycle</button>
+              <button type="button" role="tab" id="t-export" aria-controls="p-export" aria-selected="false" tabindex="-1" data-key="export">Conversation export</button>
+              <button type="button" role="tab" id="t-members" aria-controls="p-members" aria-selected="false" tabindex="-1" data-key="members">Group membership administration</button>
+              <button type="button" role="tab" id="t-files" aria-controls="p-files" aria-selected="false" tabindex="-1" data-key="files">Shared files hub</button>
+              <button type="button" role="tab" id="t-share" aria-controls="p-share" aria-selected="false" tabindex="-1" data-key="share">Permission-aware sharing</button>
+            </div>
+            <div class="fx-panels">
+              <div class="fx-panel" role="tabpanel" id="p-cross" aria-labelledby="t-cross" tabindex="0">
+                <h4>Cross-center messaging and search</h4>
+                <p>Staff at multi-location businesses can message and search across every location they are assigned to, from one interface.</p>
+                <div class="pane for-engineer"><div><p class="pane-h">How it works</p><ul class="bul"><li>Each user's reach is derived from their role-to-location assignments. Nobody gets org-wide reach by default.</li><li>One location-agnostic direct room per user pair, with location labels added per message.</li><li>Access is validated when a message is sent, not only when the room is created.</li><li>Backend query layer plus the Flutter search experience.</li></ul></div></div>
+              </div>
+              <div class="fx-panel" role="tabpanel" id="p-life" aria-labelledby="t-life" tabindex="0">
+                <h4>Tier-aware message lifecycle</h4>
+                <p>The server decides retention from the customer's plan: time-boxed on free, kept on paid, and recoverable after an upgrade.</p>
+                <div class="pane for-engineer"><div><p class="pane-h">How it works</p><ul class="bul"><li>Plan stored with location settings and read atomically, with no joins.</li><li>Cleanup excludes the paid minority with a denylist, so new locations default safely to free.</li><li>Paid IDs are re-read every batch, so a customer who upgrades mid-run is never purged.</li><li>Recovery uses cursor pagination, constant cost per page instead of offset skips.</li></ul></div></div>
+              </div>
+              <div class="fx-panel" role="tabpanel" id="p-export" aria-labelledby="t-export" tabindex="0">
+                <h4>Conversation export</h4>
+                <p>Authorized users export a conversation to a file. The export runs asynchronously and ends in a time-limited download link.</p>
+                <div class="diagram"><p class="dcap"><span>Export path</span><span>asynchronous</span></p><div class="flow flow-sm" data-flow aria-hidden="true"><div class="node"><b>Request</b><span>authorized</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Event stream</b><span>message</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Worker</b><span>block-staged upload</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Pre-signed URL</b><span>time-limited</span></div></div><ol class="sr"><li>Request</li><li>Event-stream message</li><li>Worker builds the file with block-staged upload</li><li>Pre-signed download URL</li></ol></div>
+                <div class="pane for-engineer"><div><p class="pane-h">How it works</p><ul class="bul"><li>Request, then an event-stream message, then a worker that builds the file with block-staged upload, then a pre-signed download URL.</li><li>A deduplication key turns a double-click into a 409 instead of a second job.</li><li>Lease-based ownership, so a crashed worker never leaves a job stuck forever.</li><li>The same authorization and history-visibility window as reading the chat.</li></ul></div></div>
+              </div>
+              <div class="fx-panel" role="tabpanel" id="p-members" aria-labelledby="t-members" tabindex="0">
+                <h4>Group membership administration</h4>
+                <p>Admins add, remove, promote, and dismiss members. Leaving and re-joining behave predictably for history and live access.</p>
+                <div class="pane for-engineer"><div><p class="pane-h">How it works</p><ul class="bul"><li>Invariant: the last active admin cannot leave until they promote someone.</li><li>Atomic document updates, plus a per-room Redis lock that fails open so it never blocks writes.</li><li>Re-adding a member never shrinks history they were previously granted.</li><li>Real-time membership events keep every device consistent.</li></ul></div></div>
+              </div>
+              <div class="fx-panel" role="tabpanel" id="p-files" aria-labelledby="t-files" tabindex="0">
+                <h4>Shared files hub</h4>
+                <p>Every image, document, and business attachment in a conversation, browsable in one place for 1:1 and group chats.</p>
+                <div class="pane for-engineer"><div><p class="pane-h">How it works</p><ul class="bul"><li>One endpoint per visible section, fetched only when the plan flag is on and the tab is open.</li><li>A compound multikey index plus keyset pagination. There is no separate hub collection to keep in sync.</li><li>Obeys the same history-visibility rules as the chat itself.</li></ul></div></div>
+              </div>
+              <div class="fx-panel" role="tabpanel" id="p-share" aria-labelledby="t-share" tabindex="0">
+                <h4>Permission-aware sharing</h4>
+                <p>Image and document sharing controlled per role and per plan, enforced on the server.</p>
+                <div class="diagram"><p class="dcap"><span>Effective capability = role permission AND plan entitlement</span><span>try it</span></p>
+                  <div class="logic" id="logic">
+                    <div class="logic-in"><button type="button" class="lg" aria-pressed="true" data-in><i aria-hidden="true"></i>Role permission</button><button type="button" class="lg" aria-pressed="true" data-in><i aria-hidden="true"></i>Plan entitlement</button></div>
+                    <div class="wire" aria-hidden="true"></div><div class="and" aria-hidden="true">AND</div><div class="wire" aria-hidden="true"></div>
+                    <div class="lg-out on" id="lgout" aria-live="polite">Effective capability<b>Can share</b></div>
+                  </div>
+                </div>
+                <div class="pane for-engineer"><div><p class="pane-h">How it works</p><ul class="bul"><li>Effective capability = role permission AND plan entitlement.</li><li>Delivered through the existing capability response, so the client needed no change.</li><li>Hiding a button is only UX. The server enforces the rule on send.</li></ul></div></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" id="case-storage" aria-labelledby="c5">
+          <span class="tag">Platform · Company-wide</span>
+          <h3 id="c5">Streaming storage library</h3>
+          <p><strong>Problem.</strong> Large file exports and uploads could not be buffered in memory, and every team was solving storage separately.</p>
+          <p><strong>What I did.</strong> I generalized the export storage work into Zenoti's shared platform package, so any Zenoti service can use it. It is platform infrastructure, not a product feature.</p>
+          <div class="pane for-product"><div><p class="plain">Any Zenoti service can now export or upload large files without holding them in memory, instead of each team solving storage on its own.</p></div></div>
+          <div class="pane for-engineer"><div><p class="pane-h">Design and patterns</p><ul class="bul"><li>Block-staged streaming upload. Content is written as blocks and committed once, so a large file never sits whole in memory.</li><li>Gzip compression and image thumbnail generation in the same package.</li><li>A storage provider abstraction, so callers depend on an interface and not a cloud SDK.</li></ul><ul class="chips"><li class="chip">Streaming I/O</li><li class="chip">Staged commit</li><li class="chip">Adapter</li><li class="chip">Shared library design</li></ul></div></div>
+          <div class="diagram">
+            <p class="dcap"><span>Upload path</span><span>never whole in memory</span></p>
+            <div class="flow" data-flow aria-hidden="true">
+              <div class="node"><b>Stream chunks</b><span>from caller</span></div><div class="wire"><i class="pkt"></i></div>
+              <div class="node"><span class="blocks"><i style="--b:0"></i><i style="--b:1"></i><i style="--b:2"></i><i style="--b:3"></i><i style="--b:4"></i></span><b>Stage blocks</b><span>one by one</span></div><div class="wire"><i class="pkt"></i></div>
+              <div class="node"><b>Commit block list</b><span>once</span></div><div class="wire"><i class="pkt"></i></div>
+              <div class="node"><b>Pre-signed URL</b><span>issued</span></div>
+            </div>
+            <ol class="sr"><li>Stream chunks</li><li>Stage blocks</li><li>Commit block list</li><li>Pre-signed URL</li></ol>
+          </div>
+        </article>
+
+        <article class="case" id="case-authz" aria-labelledby="c6">
+          <span class="tag">Architecture</span>
+          <h3 id="c6">Composable authorization policy pipeline</h3>
+          <p><strong>Problem.</strong> Plan, role, location-scope, membership, and masking checks were scattered across services, and each new action meant touching several of them.</p>
+          <p><strong>What I did.</strong> I designed one pipeline. The request model passes through small, independently testable policies and returns a decision with a reason and obligations.</p>
+          <div class="pane for-product"><div><p class="plain">One place now decides what each person can do based on plan, role, location and membership, so adding a new action no longer means changing several services.</p></div></div>
+          <div class="pane for-engineer"><div><p class="pane-h">Design and patterns</p><ul class="bul"><li>Policies: plan entitlement, role permission, role scope, room membership, cross-location access, attachment location. Contact masking is an obligation, not an allow/deny.</li><li>Lazy evaluation, so expensive remote and database lookups run only when the action needs them.</li><li>The same evaluator powers both the UI capability response and backend enforcement, so the two cannot drift.</li><li>A new action is an enum value plus one catalog row. A new policy class is needed only for a new kind of rule. Existing 401/403 contracts are preserved.</li></ul><ul class="chips"><li class="chip">Chain of Responsibility</li><li class="chip">Strategy</li><li class="chip">Specification</li><li class="chip">Policy Decision Point</li><li class="chip">Obligations</li></ul></div></div>
+          <div class="diagram" id="authz">
+            <p class="dcap"><span>Try a request</span><span>illustration, not production data</span></p>
+            <div class="az-req" role="group" aria-label="Preset requests"><button type="button" data-req aria-pressed="true">Share an image in own room</button><button type="button" data-req aria-pressed="false">Export on a plan without it</button><button type="button" data-req aria-pressed="false">View a guest contact</button></div>
+            <div class="az">
+              <ol class="gates" aria-label="Ordered policies">
+                <li class="gate pass">Plan entitlement<span class="gs">pass</span></li>
+                <li class="gate pass">Role permission<span class="gs">pass</span></li>
+                <li class="gate pass">Role scope<span class="gs">pass</span></li>
+                <li class="gate pass">Room membership<span class="gs">pass</span></li>
+                <li class="gate pass">Cross-location access<span class="gs">pass</span></li>
+                <li class="gate pass">Attachment location<span class="gs">pass</span></li>
+              </ol>
+              <div class="az-out" aria-live="polite">
+                <div class="az-box" id="az-d"><small>Decision + reason</small><b id="az-dec">Allow</b><p id="az-rsn">All six policies passed.</p></div>
+                <div class="az-box"><small>Obligations</small><b id="az-obl">None</b></div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="case" id="case-reliability" aria-labelledby="c7">
+          <span class="tag">Distributed coordination</span>
+          <h3 id="c7">Distributed coordination and reliability</h3>
+          <div class="rel">
+            <div class="rel-b"><h4>Pod-aware onboarding queue</h4><p>Onboarding work runs on the regional deployment that owns the customer. No deployment steals another's queue.</p>
+              <div class="pane for-engineer"><div><ul class="bul"><li>Each deployment claims its own work first, in FIFO order per organization.</li><li>Owner-fenced locks, taken only when writes begin.</li><li>Fail-closed routing: if ownership lookup fails, the work is not enqueued in the wrong place.</li><li>A black-box concurrency harness to prove the claims under contention.</li></ul></div></div></div>
+            <div class="rel-b" id="bucket"><h4>Distributed rate limiting</h4><p>One per-client request limit enforced identically across every API pod.</p>
+              <div class="bucket"><span class="tk" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><button type="button" class="btn btn-sm" id="tb-send">Send 6 requests</button><span class="tb-s" aria-live="polite">allowed <b id="tb-a">0</b> · limited <b class="l" id="tb-l">0</b> · illustration</span></div>
+              <div class="pane for-engineer"><div><ul class="bul"><li>A Redis-backed token bucket evaluated in a single atomic Lua script, never read-compute-write.</li><li>Evaluated against GCRA. Both are smooth, with no fixed-window burst at boundaries.</li><li>Limiter state is visible on my observability dashboard.</li></ul></div></div></div>
+            <div class="rel-b"><h4>Analytics and UI reliability</h4><p>Fixed a production analytics defect where the organization ID was emitted as 0 for enabled organizations, which had been silently corrupting downstream tracking. Resolved and hardened 15+ cross-platform UI issues: themes, timestamps, role filters, permissions, and rendering.</p>
+              <div class="pane for-engineer"><div><ul class="bul"><li>Traced the bad identifier from the emitted event back to the code path, then corrected attribution at the source.</li><li>Negative caching for organization settings, so repeated lookups for missing records stop hitting the database.</li></ul></div></div></div>
+          </div>
+        </article>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- QUALITY + FLUTTER ARCHITECTURE -->
+<section id="ai" class="section" aria-labelledby="aiTitle">
+  <div class="wrap">
+    <header class="sec-head"><p class="kicker">AI-native engineering</p><h2 id="aiTitle">Agents with context. Changes with review.</h2><p class="lede">I built an AI-assisted engineering environment on Claude and Cursor, connected to Jira, Confluence, New Relic, Postman, MongoDB, and Bitbucket context. I use it for root-cause analysis, code review, design packs, and cross-stack changes. AI speeds up the investigation. I own the decision.</p></header>
+    <ol class="airail" id="airail" aria-label="AI-assisted engineering workflow">
+      <li><button type="button" class="ai-step" data-detail="Root-cause analysis, code review, a design pack or a cross-stack change starts the run."><em>01</em>Engineering task</button></li>
+      <li><button type="button" class="ai-step" data-detail="Model Context Protocol connections give the agent the ticket and the design docs from Jira and Confluence."><em>02</em>Ticket context</button></li>
+      <li><button type="button" class="ai-step" data-detail="Repository and agent rules encode the team's quality bar: braces on every block, no more than eight parameters, no dead code, minimal diffs."><em>03</em>Repository and rules</button></li>
+      <li><button type="button" class="ai-step" data-detail="Live telemetry through read-only queries, so the agent reasons from evidence instead of guessing."><em>04</em>Telemetry evidence</button></li>
+      <li><button type="button" class="ai-step" data-detail="A plan, HLD, LLD, event diagrams and a team summary, each claim verified against source."><em>05</em>Plan and design pack</button></li>
+      <li><button type="button" class="ai-step" data-detail="Minimal diffs with no formatting noise, scoped to the root cause that was found."><em>06</em>Constrained change</button></li>
+      <li><button type="button" class="ai-step" data-detail="Parallel review passes and static analysis, merged into one severity-ranked report with file and line citations."><em>07</em>Tests and analysis</button></li>
+      <li><button type="button" class="ai-step gate-s" data-detail="No commit or push without explicit approval. AI never replaces review."><em>08</em><span>Human approval</span></button></li>
+      <li aria-hidden="true" class="ai-pkt"></li>
+    </ol>
+    <div class="ai-det" aria-live="polite"><b id="ai-dt">08 Human approval</b><p id="ai-dd">No commit or push without explicit approval. AI never replaces review.</p><button type="button" class="btn btn-sm" id="ai-resume" hidden>Resume</button></div>
+    <div class="pgrid">
+      <article><h3>Context through MCP</h3><p>Model Context Protocol connections give the agent the ticket, the design docs, the live telemetry, the API collections, and the data shape. It reasons from evidence instead of guessing.</p></article>
+      <article><h3>Rules as guardrails</h3><p>Repository and agent rules encode the team's quality bar: braces on every block, no more than eight parameters, no dead code, minimal diffs, no formatting noise. Agent output then passes static analysis the first time.</p></article>
+      <article><h3>Design packs before code</h3><p>For each feature, a plan, HLD, LLD, event diagrams, and a team summary, each claim verified against source. Source code is the authority, not older docs.</p></article>
+      <article><h3>Multi-dimension PR review</h3><p>Parallel review passes for correctness, client conventions, security and gating, and data regression, merged into one severity-ranked report with exact file and line citations.</p></article>
+      <article><h3>Safety by default</h3><p>Telemetry queries are read-only. No commit or push without explicit approval. Credentials never enter prompts or history. AI never replaces review.</p></article>
+      <article><h3>Root-cause analysis</h3><p>File and line, a one-line root cause, at most two hypotheses, then approval, then the fix. Evidence first, speculation never.</p></article>
+    </div>
+    <h3 class="sub">Engineering tools I built</h3>
+    <div class="tools">
+      <article class="tool wide" id="observability">
+        <div><h4>Production observability dashboard</h4><p class="stack">Python · Streamlit · NerdGraph / NRQL · Plotly</p><p>A one-command dashboard over New Relic that answers the questions an incident actually raises. It covers every production region plus QA and staging, and compares any two days side by side.</p>
+          <ul class="check" aria-label="Dashboard panels"><li>p95 / p99 latency by endpoint</li><li>Status-code mix and request rate</li><li>Webhook events by type, 5xx over time</li><li>Rate-limiter state and limited senders</li><li>Pod lifecycle and Kubernetes restarts</li><li>Process memory vs traffic vs 5xx</li><li>Database pressure vs latency</li><li>Datastore and external call time split</li><li>Scheduler claim timeline per pod</li><li>Day-over-day comparison</li></ul></div>
+        <div class="dash" id="dash" aria-hidden="true"><p class="dash-h"><span>latency by endpoint</span><span>illustrative</span></p><svg viewBox="0 0 115 40" preserveAspectRatio="none"><path id="p99" stroke="#F2B84B"/><path id="p95" stroke="#45D483"/></svg><p class="dash-k"><span><i style="background:#45D483"></i>p95</span><span><i style="background:#F2B84B"></i>p99</span></p></div>
+      </article>
+      <article class="tool"><h4>PR impact analyzer</h4><p class="stack">Python · Streamlit · Bitbucket API</p><p>Takes a pull request link or a raw diff and summarizes what changed and what it can affect, before a human reviewer starts.</p></article>
+      <article class="tool"><h4>One-command API regression</h4><p class="stack">.NET · Newman · Bash</p><p>Builds the service, boots it, polls health, runs every Postman collection, and prints a pass/fail summary by collection.</p></article>
+      <article class="tool" style="grid-column:1/-1"><h4>End-to-end smoke suite</h4><p class="stack">Playwright · Node.js</p><p>Log in, open chat, send, search. The run fails on any required step or any 4xx/5xx from the product, including the SignalR hub. Console errors are classified as benign or unclassified, and each run gets a report with screenshots.</p></article>
+    </div>
+  </div>
+</section>
+
 <section id="quality" class="section" aria-labelledby="qualityTitle">
   <div class="wrap">
-    <p class="kicker">Architecture and quality</p>
-    <h2 id="qualityTitle">Clean client architecture, with tests that prove behavior</h2>
-    <div class="cases cases-2">
-      <article class="case reveal">
-        <div class="case-head"><span class="tag tag-arch">Flutter architecture</span><h3>Layered, incremental client architecture</h3></div>
-        <p><strong>What I did.</strong> I defined an architecture standard for the Flutter client and migrated it screen by screen, with no rewrite and no delivery freeze. Public events, states, APIs, and UX stayed unchanged at every step.</p>
-        <ol class="flow flow-sm" aria-label="Client layers"><li>Composition root</li><li>Screen + UI policy</li><li>BLoC / Cubit</li><li>Repository</li><li>API · Realtime session</li></ol>
-        <p class="impact"><strong>Result.</strong> Smaller, testable units, with the test suite green at every layer.</p>
-        <details data-depth>
-          <summary>Design and patterns</summary>
-          <ul>
-            <li>A composition root owns long-lived services like the realtime session. Screens receive dependencies and never construct them.</li>
-            <li>Oversized BLoCs split into focused collaborators, with public events and states unchanged.</li>
-            <li>Typed routes and route arguments.</li>
-            <li>Auth state read once at composition and injected as immutable UI policy snapshots, so widgets never reach into global services.</li>
-            <li>Repository layer with request cancellation. Cubits own data loading.</li>
-          </ul>
-          <ul class="chips chips-sm"><li>BLoC / Cubit</li><li>Composition root</li><li>Dependency injection</li><li>Repository</li><li>Immutable snapshots</li></ul>
-        </details>
+    <header class="sec-head"><p class="kicker">Architecture and quality</p><h2 id="qualityTitle">Clean client architecture, with tests that prove behavior</h2></header>
+    <div class="q2">
+      <article id="quality-arch" aria-labelledby="q1">
+        <span class="tag">Flutter architecture</span>
+        <h3 id="q1">Layered, incremental client architecture</h3>
+        <p style="margin-top:16px"><strong>What I did.</strong> I defined an architecture standard for the Flutter client and migrated it screen by screen, with no rewrite and no delivery freeze. Public events, states, APIs, and UX stayed unchanged at every step.</p>
+        <ol class="layers" aria-label="Client layers"><li>Composition root<small>owns long-lived services</small></li><li>Screen + UI policy<small>immutable snapshots</small></li><li>BLoC / Cubit<small>owns data loading</small></li><li>Repository<small>request cancellation</small></li><li>API · Realtime session<small>injected</small></li></ol>
+        <div class="result"><b>Result</b><p>Smaller, testable units, with the test suite green at every layer.</p></div>
+        <div class="pane for-product"><div><p class="plain">The app was restructured screen by screen with no rewrite and no delivery freeze, and nothing changed for users along the way.</p></div></div>
+        <div class="pane for-engineer"><div><p class="pane-h">Design and patterns</p><ul class="bul"><li>A composition root owns long-lived services like the realtime session. Screens receive dependencies and never construct them.</li><li>Oversized BLoCs split into focused collaborators, with public events and states unchanged.</li><li>Typed routes and route arguments.</li><li>Auth state read once at composition and injected as immutable UI policy snapshots, so widgets never reach into global services.</li><li>Repository layer with request cancellation. Cubits own data loading.</li></ul><ul class="chips"><li class="chip">BLoC / Cubit</li><li class="chip">Composition root</li><li class="chip">Dependency injection</li><li class="chip">Repository</li><li class="chip">Immutable snapshots</li></ul></div></div>
       </article>
-      <article class="case reveal rd1">
-        <div class="case-head"><span class="tag tag-perf">Testing</span><h3>A layered testing framework</h3></div>
-        <ul class="test-stack">
-          <li><span class="ts-n" data-count="229">229</span><span>Flutter tests green after a characterization suite locked behavior before refactoring</span></li>
-          <li><span class="ts-n" data-count="222">222</span><span>Backend unit tests passing across service logic</span></li>
-          <li><span class="ts-n">E2E</span><span>Browser smoke run with network-failure gating</span></li>
-          <li><span class="ts-n">API</span><span>Automated collection regression, from build to summary</span></li>
-          <li><span class="ts-n">Load</span><span>Concurrency harness for queue claims under contention</span></li>
+      <article id="quality-tests" aria-labelledby="q2">
+        <span class="tag">Testing</span>
+        <h3 id="q2">A layered testing framework</h3>
+        <ul class="tests" style="margin-top:24px">
+          <li><span class="tn" data-count="229">229</span><p>Flutter tests green after a characterization suite locked behavior before refactoring</p></li>
+          <li><span class="tn" data-count="222">222</span><p>Backend unit tests passing across service logic</p></li>
+          <li><span class="tn">E2E</span><p>Browser smoke run with network-failure gating</p></li>
+          <li><span class="tn">API</span><p>Automated collection regression, from build to summary</p></li>
+          <li><span class="tn">Load</span><p>Concurrency harness for queue claims under contention</p></li>
         </ul>
-        <details data-depth>
-          <summary>Approach</summary>
-          <ul>
-            <li>Characterization tests first, so a refactor proves it changed structure and not behavior.</li>
-            <li>Scoped static analysis clean on every changed file.</li>
-            <li>Black-box tests at the HTTP boundary for concurrency-sensitive paths.</li>
-          </ul>
-        </details>
+        <div class="pane for-engineer"><div><p class="pane-h">Approach</p><ul class="bul"><li>Characterization tests first, so a refactor proves it changed structure and not behavior.</li><li>Scoped static analysis clean on every changed file.</li><li>Black-box tests at the HTTP boundary for concurrency-sensitive paths.</li></ul></div></div>
       </article>
     </div>
   </div>
 </section>
 
-<!-- COGNIZANT -->
-<section id="cognizant" class="section section-alt" aria-labelledby="cogTitle">
+<section id="cognizant" class="section" aria-labelledby="cogTitle">
   <div class="wrap">
-    <p class="kicker">Cognizant · Junior Software Engineer · Sep 2023 — Jan 2026 · Noida</p>
-    <h2 id="cogTitle">Cloud automation, data pipelines, and API performance</h2>
-    <p class="section-lede">Enterprise client work, so systems are described by outcome and not by name.</p>
-    <div class="cases cases-2">
-      <article class="case reveal">
-        <div class="case-head"><span class="tag tag-plat">Automation · AWS</span><h3>Event-driven feed processing</h3></div>
-        <div class="before-after" aria-label="Processing time before and after">
-          <div class="ba-row"><span class="ba-lbl">Before</span><span class="ba-bar ba-before"><span>~2 days</span></span></div>
-          <div class="ba-row"><span class="ba-lbl">After</span><span class="ba-bar ba-after ba-tiny"><span>5 min</span></span></div>
-        </div>
+    <header class="sec-head"><p class="kicker">Cognizant · Junior Software Engineer · Sep 2023 — Jan 2026 · Noida</p><h2 id="cogTitle">Cloud automation, data pipelines, and API performance</h2><p class="lede">Enterprise client work, so systems are described by outcome and not by name.</p></header>
+    <div class="cz">
+      <article><span class="tag">Automation · AWS</span><h3>Event-driven feed processing</h3>
+        <p class="sr">Processing time: about 2 days before, 5 minutes after.</p>
+        <div class="race" data-race><div class="race-row"><span>Before</span><span class="race-bar race-before"><i>~2 days</i></span></div><div class="race-row"><span>After</span><span class="race-bar race-after" style="--w:4%"><i>5 min</i></span></div></div>
         <p><strong>What I did.</strong> I architected Lambda and EventBridge automation that replaced a manual feed process. Separately, I built a .NET 8 reconciliation job that consolidates six feed files into one report and cut its processing time by about 90%.</p>
-        <ul class="chips chips-sm"><li>AWS Lambda</li><li>EventBridge</li><li>.NET 8</li><li>Event-driven</li></ul>
-      </article>
-      <article class="case reveal rd1">
-        <div class="case-head"><span class="tag tag-rt">Data · IoT</span><h3>Large-scale telemetry pipeline</h3></div>
-        <p class="big-num"><span data-count="500">500</span>K <small>records / day · 99.9% accuracy</small></p>
+        <ul class="chips"><li class="chip">AWS Lambda</li><li class="chip">EventBridge</li><li class="chip">.NET 8</li><li class="chip">Event-driven</li></ul></article>
+      <article id="telemetry"><span class="tag">Data · IoT</span><h3>Large-scale telemetry pipeline</h3>
+        <p class="big" style="font-size:clamp(34px,4vw,48px)"><span data-count="500">500</span>K<small>records / day · 99.9% accuracy</small></p>
+        <div class="stream" aria-hidden="true"><i style="--k:0"></i><i style="--k:1"></i><i style="--k:2"></i><i style="--k:3"></i><i style="--k:4"></i><i style="--k:5"></i><i style="--k:6"></i><i style="--k:7"></i><i style="--k:8"></i><i style="--k:9"></i><i style="--k:10"></i><i style="--k:11"></i></div>
         <p><strong>What I did.</strong> I built an AWS IoT pipeline that ingests device telemetry into DynamoDB and S3 at production volume.</p>
-        <ul class="chips chips-sm"><li>AWS IoT</li><li>DynamoDB</li><li>S3</li><li>.NET 8</li><li>Dapper</li></ul>
-      </article>
-      <article class="case reveal">
-        <div class="case-head"><span class="tag tag-arch">Cloud · Security</span><h3>Azure migration and secret management</h3></div>
+        <ul class="chips"><li class="chip">AWS IoT</li><li class="chip">DynamoDB</li><li class="chip">S3</li><li class="chip">.NET 8</li><li class="chip">Dapper</li></ul></article>
+      <article><span class="tag">Cloud · Security</span><h3>Azure migration and secret management</h3>
         <p><strong>What I did.</strong> I migrated 3 third-party APIs (19 endpoints) to an Azure Managed Evergreen instance, which improved scalability and cut maintenance. I moved credentials into Azure Key Vault.</p>
-        <p class="impact"><strong>Result.</strong> About 30% fewer reported security vulnerabilities, and stronger compliance.</p>
-        <ul class="chips chips-sm"><li>Azure APIM</li><li>Azure Key Vault</li><li>.NET MVC</li></ul>
-      </article>
-      <article class="case reveal rd1">
-        <div class="case-head"><span class="tag tag-perf">Performance</span><h3>Legacy API and data-access performance</h3></div>
-        <ul class="stat-list">
-          <li><strong>−70%</strong> application load time through Redis caching</li>
-          <li><strong>+25%</strong> data-transfer speed on optimized .NET Web APIs</li>
-          <li><strong>+20%</strong> query speed and less contention with ADO.NET, Dapper, and PostgreSQL</li>
+        <div class="result"><b>Result</b><p>About 30% fewer reported security vulnerabilities, and stronger compliance.</p></div>
+        <ul class="chips"><li class="chip">Azure APIM</li><li class="chip">Azure Key Vault</li><li class="chip">.NET MVC</li></ul></article>
+      <article><span class="tag">Performance</span><h3>Legacy API and data-access performance</h3>
+        <ul class="mbars" id="mbars">
+          <li><b>−70%</b><span>application load time through Redis caching<span class="bar"><i style="--w:70%"></i></span></span></li>
+          <li><b>+25%</b><span>data-transfer speed on optimized .NET Web APIs<span class="bar"><i style="--w:25%"></i></span></span></li>
+          <li><b>+20%</b><span>query speed and less contention with ADO.NET, Dapper, and PostgreSQL<span class="bar"><i style="--w:20%"></i></span></span></li>
         </ul>
-        <ul class="chips chips-sm"><li>Redis</li><li>Dapper</li><li>ADO.NET</li><li>PostgreSQL</li><li>Cache-aside</li></ul>
-      </article>
+        <ul class="chips"><li class="chip">Redis</li><li class="chip">Dapper</li><li class="chip">ADO.NET</li><li class="chip">PostgreSQL</li><li class="chip">Cache-aside</li></ul></article>
     </div>
   </div>
 </section>
 
-<!-- PROJECTS -->
 <section id="projects" class="section" aria-labelledby="projTitle">
   <div class="wrap">
-    <p class="kicker">Selected builds</p>
-    <h2 id="projTitle">Independent and academic projects</h2>
-    <article class="case case-wide reveal">
-      <div class="case-head"><span class="tag tag-rt">Hackathon · Top 6 of 1,700+ ideas</span><h3>AppPulse: predictive health monitoring MVP</h3></div>
-      <p><strong>Problem.</strong> Server failures are usually noticed after they happen. AppPulse forecasts them.</p>
-      <ol class="flow" aria-label="AppPulse architecture">
-        <li>22 metrics / 30s to S3</li><li>Lambda builds a 90-step window</li><li>SageMaker LSTM autoencoder</li><li>DynamoDB + Timestream</li><li>QuickSight · SNS alerts</li>
-      </ol>
-      <p class="impact">Returns a health score, time-to-failure estimate, and top contributing metrics. Alerts fire below a health threshold. LSTM autoencoder with a 90 × 22 input and validation loss of about 0.12.</p>
-      <p><a class="text-link" href="https://github.com/Tabish8065/AppPulse" target="_blank" rel="noopener noreferrer">AppPulse source on GitHub</a></p>
+    <header class="sec-head"><p class="kicker">Selected builds</p><h2 id="projTitle">Independent and academic projects</h2></header>
+    <article class="feat" id="apppulse">
+      <div class="feat-top">
+        <div><span class="tag">Hackathon · Top 6 of 1,700+ ideas</span><h3>AppPulse: predictive health monitoring MVP</h3>
+          <p><strong>Problem.</strong> Server failures are usually noticed after they happen. AppPulse forecasts them.</p>
+          <p style="margin-top:12px">Returns a health score, time-to-failure estimate, and top contributing metrics. Alerts fire below a health threshold. LSTM autoencoder with a 90 × 22 input and validation loss of about 0.12.</p>
+          <a class="tlink" href="https://github.com/Tabish8065/AppPulse" target="_blank" rel="noopener noreferrer">AppPulse source on GitHub</a></div>
+        <div class="gauge" id="gauge" aria-hidden="true"><svg viewBox="0 0 180 100"><path class="g-bg" d="M15 90 A75 75 0 0 1 165 90" fill="none" stroke-width="10" stroke-linecap="round"/><path class="g-val" pathLength="1" d="M15 90 A75 75 0 0 1 165 90" fill="none" stroke-width="10" stroke-linecap="round" style="stroke-dashoffset:.06"/></svg><p class="g-num" id="g-num">94</p><p class="g-st" id="g-st">Healthy</p><p class="g-cap">health score · illustrative</p></div>
+      </div>
+      <div class="diagram"><p class="dcap"><span>Pipeline</span><span>AWS</span></p>
+        <div class="flow" data-flow aria-hidden="true"><div class="node"><b>S3</b><span>22 metrics / 30s</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>Lambda</b><span>90-step window</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>SageMaker</b><span>LSTM autoencoder</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>DynamoDB</b><span>+ Timestream</span></div><div class="wire"><i class="pkt"></i></div><div class="node"><b>QuickSight</b><span>SNS alerts</span></div></div>
+        <ol class="sr"><li>22 metrics every 30 seconds to S3</li><li>Lambda builds a 90-step window</li><li>SageMaker LSTM autoencoder</li><li>DynamoDB and Timestream</li><li>QuickSight and SNS alerts</li></ol>
+      </div>
     </article>
-    <div class="mini-grid">
-      <article class="mini reveal"><h3>Code Quality Analyzer</h3><p>PR validation with Roslyn-based C# analysis, complexity metrics, and dashboards. Angular 17, .NET 8, GitHub API.</p><a class="text-link" href="https://github.com/Tabish8065/Code-Quality-Analyzer" target="_blank" rel="noopener noreferrer">Source on GitHub</a></article>
-      <article class="mini reveal rd1"><h3>E-commerce REST APIs</h3><p>.NET 8, Dapper, and PostgreSQL, with JWT authentication and admin/user role authorization.</p><span class="label-muted">Private repository</span></article>
-      <article class="mini reveal rd2"><h3>Smart environment monitor</h3><p>Five classroom parameters in real time through AWS IoT, Timestream, Grafana, and SNS threshold alerts. 10% faster response to changes.</p><span class="label-muted">Academic project</span></article>
-      <article class="mini reveal"><h3>Early ML and IoT work</h3><p>Sentiment analysis comparing five algorithms on 1.6M tweets (80:20 split). OpenCV face-recognition attendance on Raspberry Pi.</p><span class="label-muted">Academic projects</span></article>
+    <div class="minis">
+      <article class="mini"><h3>Code Quality Analyzer</h3><p>PR validation with Roslyn-based C# analysis, complexity metrics, and dashboards. Angular 17, .NET 8, GitHub API.</p><a class="tlink" href="https://github.com/Tabish8065/Code-Quality-Analyzer" target="_blank" rel="noopener noreferrer">Source on GitHub</a></article>
+      <article class="mini"><h3>E-commerce REST APIs</h3><p>.NET 8, Dapper, and PostgreSQL, with JWT authentication and admin/user role authorization.</p><span class="muted">Private repository</span></article>
+      <article class="mini"><h3>Smart environment monitor</h3><p>Five classroom parameters in real time through AWS IoT, Timestream, Grafana, and SNS threshold alerts. 10% faster response to changes.</p><span class="muted">Academic project</span></article>
+      <article class="mini"><h3>Early ML and IoT work</h3><p>Sentiment analysis comparing five algorithms on 1.6M tweets (80:20 split). OpenCV face-recognition attendance on Raspberry Pi.</p><span class="muted">Academic projects</span></article>
     </div>
   </div>
 </section>
 
-<!-- JOURNEY -->
-<section id="journey" class="section section-alt" aria-labelledby="journeyTitle">
+<section id="journey" class="section" aria-labelledby="journeyTitle">
   <div class="wrap">
-    <p class="kicker">Journey</p>
-    <h2 id="journeyTitle">From mechanical engineering to production systems</h2>
-    <ol class="timeline">
-      <li class="tl reveal"><span class="tl-date">Jan 2026 — Present</span><h3>Software Engineer · Zenoti</h3><p class="tl-co">Hyderabad</p><p>Zenchat real-time messaging, plan-tier product features, shared platform storage, the Flutter architecture standard, and the AI-native engineering workflow.</p></li>
-      <li class="tl reveal"><span class="tl-date">Sep 2023 — Jan 2026</span><h3>Junior Software Engineer · Cognizant</h3><p class="tl-co">Noida</p><p>Azure migration, Key Vault security, event-driven AWS automation, a 500K/day telemetry pipeline, and API and database performance.</p></li>
-      <li class="tl reveal"><span class="tl-date">Mar 2023 — Jul 2023</span><h3>Internship Trainee · Cognizant</h3><p>Library management system in Angular, Spring Boot, JPA, and MySQL, with two access levels. Five specialized courses completed.</p></li>
-      <li class="tl reveal"><span class="tl-date">Sep 2021 — Jul 2022</span><h3>Vice President · IoT Club, KIET</h3><p>Led 15 students on IoT automation projects, including the classroom health-monitoring system. Early technical ownership and mentoring.</p></li>
-      <li class="tl reveal"><span class="tl-date">Nov 2020 — Jun 2023</span><h3>B.Tech, Computer Science · KIET Group of Institutions</h3><p>CGPA 8.08.</p></li>
-      <li class="tl reveal"><span class="tl-date">Aug 2017 — Sep 2020</span><h3>Diploma, Mechanical Engineering · Aligarh Muslim University</h3><p>CGPA 8.33. An engineering-first mindset: every component precise, efficient, and built to last.</p></li>
+    <header class="sec-head"><p class="kicker">Journey</p><h2 id="journeyTitle">From mechanical engineering to production systems</h2></header>
+    <ol class="tl" id="tl">
+      <li><p class="tl-d">Jan 2026 — Present</p><h3>Software Engineer · Zenoti</h3><p class="tl-co">Hyderabad</p><p>Zenchat real-time messaging, plan-tier product features, shared platform storage, the Flutter architecture standard, and the AI-native engineering workflow.</p></li>
+      <li><p class="tl-d">Sep 2023 — Jan 2026</p><h3>Junior Software Engineer · Cognizant</h3><p class="tl-co">Noida</p><p>Azure migration, Key Vault security, event-driven AWS automation, a 500K/day telemetry pipeline, and API and database performance.</p></li>
+      <li><p class="tl-d">Mar 2023 — Jul 2023</p><h3>Internship Trainee · Cognizant</h3><p>Library management system in Angular, Spring Boot, JPA, and MySQL, with two access levels. Five specialized courses completed.</p></li>
+      <li><p class="tl-d">Sep 2021 — Jul 2022</p><h3>Vice President · IoT Club, KIET</h3><p>Led 15 students on IoT automation projects, including the classroom health-monitoring system. Early technical ownership and mentoring.</p></li>
+      <li><p class="tl-d">Nov 2020 — Jun 2023</p><h3>B.Tech, Computer Science · KIET Group of Institutions</h3><p>CGPA 8.08.</p></li>
+      <li><p class="tl-d">Aug 2017 — Sep 2020</p><h3>Diploma, Mechanical Engineering · Aligarh Muslim University</h3><p>CGPA 8.33. An engineering-first mindset: every component precise, efficient, and built to last.</p></li>
     </ol>
   </div>
 </section>
 
-<!-- CAPABILITIES -->
 <section id="capabilities" class="section" aria-labelledby="capTitle">
   <div class="wrap">
-    <p class="kicker">Capabilities</p>
-    <h2 id="capTitle">Grouped by what they are used for</h2>
-    <div class="caps">
-      <div class="cap reveal"><h3>Backend and APIs</h3><p>C#, .NET, ASP.NET MVC, Web API, ADO.NET, Entity Framework, Dapper, LINQ</p></div>
-      <div class="cap reveal rd1"><h3>Real-time and distributed</h3><p>SignalR, WebSockets, MongoDB Change Streams, Azure Event Hubs, Redis locks and rate limiting, event-driven workers</p></div>
-      <div class="cap reveal rd2"><h3>Client and cross-platform</h3><p>Flutter, Dart, BLoC/Cubit, TypeScript, Angular, HTML, CSS</p></div>
-      <div class="cap reveal"><h3>Cloud and platform</h3><p>Azure App Service, Key Vault, API Management, Blob Storage, AKS, Kubernetes, Docker, AWS Lambda, EventBridge, IoT, SageMaker, S3, GitHub Actions, TeamCity</p></div>
-      <div class="cap reveal rd1"><h3>Data and persistence</h3><p>MongoDB, PostgreSQL, SQL Server, MySQL, DynamoDB, Timestream, Redis, stored procedures</p></div>
-      <div class="cap reveal rd2"><h3>Observability and quality</h3><p>New Relic (NRQL, NerdGraph), Grafana, Streamlit, Playwright, Newman, Postman, xUnit, flutter_test</p></div>
-      <div class="cap cap-wide reveal"><h3>AI-native engineering</h3><p>MCP-connected agents, Claude, Cursor, repository and agent rules, context management, AI-assisted root-cause analysis and code review, human-reviewed agentic development</p></div>
-    </div>
+    <header class="sec-head"><p class="kicker">Capabilities</p><h2 id="capTitle">Grouped by what they are used for</h2></header>
+    <dl class="caps">
+      <div><dt>Backend and APIs</dt><dd>C#, .NET, ASP.NET MVC, Web API, ADO.NET, Entity Framework, Dapper, LINQ</dd></div>
+      <div><dt>Real-time and distributed</dt><dd>SignalR, WebSockets, MongoDB Change Streams, Azure Event Hubs, Redis locks and rate limiting, event-driven workers</dd></div>
+      <div><dt>Client and cross-platform</dt><dd>Flutter, Dart, BLoC/Cubit, TypeScript, Angular, HTML, CSS</dd></div>
+      <div><dt>Cloud and platform</dt><dd>Azure App Service, Key Vault, API Management, Blob Storage, AKS, Kubernetes, Docker, AWS Lambda, EventBridge, IoT, SageMaker, S3, GitHub Actions, TeamCity</dd></div>
+      <div><dt>Data and persistence</dt><dd>MongoDB, PostgreSQL, SQL Server, MySQL, DynamoDB, Timestream, Redis, stored procedures</dd></div>
+      <div><dt>Observability and quality</dt><dd>New Relic (NRQL, NerdGraph), Grafana, Streamlit, Playwright, Newman, Postman, xUnit, flutter_test</dd></div>
+      <div><dt>AI-native engineering</dt><dd>MCP-connected agents, Claude, Cursor, repository and agent rules, context management, AI-assisted root-cause analysis and code review, human-reviewed agentic development</dd></div>
+    </dl>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section section-alt contact" aria-labelledby="contactTitle">
-  <div class="wrap narrow">
+<section id="contact" class="section contact" aria-labelledby="contactTitle">
+  <div class="wrap">
     <p class="kicker">Contact</p>
     <h2 id="contactTitle">Let's talk about the system, not just the stack.</h2>
-    <p class="section-lede">Real-time products, platform work, performance problems, or putting AI agents into an engineering team safely.</p>
-    <div class="contact-actions">
-      <a href="mailto:mirzatabish8065@gmail.com" class="btn btn-primary">mirzatabish8065@gmail.com</a>
-      <a href="https://linkedin.com/in/hmirza8065" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>
-      <a href="https://github.com/Tabish8065" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">GitHub profile</a>
-      <a href="./assets/resume/Mirza-Tabish-Hasan-Resume.pdf" class="btn btn-ghost" data-resume hidden download="Mirza-Tabish-Hasan-Resume.pdf">Download resume (PDF)</a>
+    <p class="lede">Real-time products, platform work, performance problems, or putting AI agents into an engineering team safely.</p>
+    <div class="c-acts">
+      <a href="mailto:mirzatabish8065@gmail.com" class="btn btn-amber">mirzatabish8065@gmail.com</a>
+      <button type="button" class="btn copy" data-copy hidden>Copy</button>
+      <a href="https://linkedin.com/in/hmirza8065" class="btn" target="_blank" rel="noopener noreferrer">LinkedIn profile</a>
+      <a href="https://github.com/Tabish8065" class="btn" target="_blank" rel="noopener noreferrer">GitHub profile</a>
     </div>
   </div>
 </section>
-
 </main>
 
-<footer class="footer">
-  <p>Mirza Tabish Hasan · Software Engineer · © 2026 · Static site, zero dependencies, hosted on GitHub Pages.</p>
-</footer>
+<footer class="foot"><div class="wrap">Mirza Tabish Hasan · Software Engineer · © <span id="yr">2026</span> · Static site, no frameworks, hosted on GitHub Pages.</div></footer>
+
+<dialog class="pal" id="palette" aria-label="Command palette">
+  <div class="pal-in">
+    <input id="pq" type="text" role="combobox" aria-expanded="true" aria-controls="pl" aria-autocomplete="list" aria-label="Search sections and actions" placeholder="Jump to a section or run an action" autocomplete="off" spellcheck="false">
+    <ul id="pl" role="listbox" aria-label="Results"></ul>
+    <p class="pal-f"><span><kbd>↑</kbd> <kbd>↓</kbd> move</span><span><kbd>Enter</kbd> run</span><span><kbd>Esc</kbd> close</span></p>
+  </div>
+</dialog>
+<div class="tip" id="tip" role="tooltip" hidden></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const root = document.documentElement;
+  const RM = matchMedia('(prefers-reduced-motion: reduce)');
+  const reduced = () => RM.matches;
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const EMAIL = 'mirzatabish8065@gmail.com';
+  const START = Date.parse('2023-09-19T00:00:00+05:30');
+  const IST = 19800000;
+  const pad = (n, l = 2) => String(n).padStart(l, '0');
+
+  const ios = {};
+  function observe(el, cb, t = 0) {
+    if (!el) {
+      return;
+    }
+    if (!ios[t]) {
+      ios[t] = new IntersectionObserver((es) => es.forEach((e) => ((e.target._cb || {})[t] || []).forEach((f) => f(e))), { threshold: t });
+    }
+    el._cb = el._cb || {};
+    (el._cb[t] = el._cb[t] || []).push(cb);
+    ios[t].observe(el);
+  }
+  function once(el, cb, t = 0) {
+    let done = false;
+    observe(el, (e) => {
+      if (e.isIntersecting && !done) {
+        done = true;
+        cb();
+      }
+    }, t);
+  }
+  function watch(el) {
+    observe(el, (e) => {
+      el._vis = e.isIntersecting;
+      el.classList.toggle('off', !e.isIntersecting);
+    });
+  }
+  const isLive = (el) => !!el._vis && !document.hidden && !reduced();
+
+  const timers = [];
+  function every(ms, fn) {
+    const t = { ms, fn, id: setInterval(fn, ms) };
+    timers.push(t);
+    fn();
+  }
+  document.addEventListener('visibilitychange', () => timers.forEach((t) => {
+    clearInterval(t.id);
+    t.id = 0;
+    if (!document.hidden) {
+      t.fn();
+      t.id = setInterval(t.fn, t.ms);
+    }
+  }));
+
+  const scrollFns = [];
+  let ticking = false;
+  function onScroll() {
+    if (ticking) {
+      return;
+    }
+    ticking = true;
+    requestAnimationFrame(() => {
+      ticking = false;
+      scrollFns.forEach((f) => f());
+    });
+  }
+
+  function tween(d, fn) {
+    if (reduced()) {
+      fn(1);
+      return;
+    }
+    const s = performance.now();
+    const f = (n) => {
+      const t = Math.min(1, (n - s) / d);
+      fn(1 - Math.pow(1 - t, 3));
+      if (t < 1) {
+        requestAnimationFrame(f);
+      }
+    };
+    requestAnimationFrame(f);
+  }
+
+  let toastTimer = 0;
+  function toast(msg) {
+    const el = $('#toast');
+    el.textContent = msg;
+    el.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => el.classList.remove('show'), 1800);
+  }
+
+  let selectTab = () => {};
+  function goTo(id, tab) {
+    const el = document.getElementById(id);
+    if (!el) {
+      return;
+    }
+    if (tab) {
+      selectTab(tab, false);
+    }
+    el.scrollIntoView({ behavior: reduced() ? 'auto' : 'smooth', block: 'start' });
+    el.classList.remove('pulse');
+    void el.offsetWidth;
+    el.classList.add('pulse');
+    setTimeout(() => el.classList.remove('pulse'), 1600);
+  }
+
+  function istParts() {
+    const d = new Date(Date.now() + IST);
+    return { d, h: d.getUTCHours(), m: d.getUTCMinutes(), s: d.getUTCSeconds(), ms: d.getUTCMilliseconds() };
+  }
+
+  function initClock() {
+    const el = $('#clock');
+    const fmt = new Intl.DateTimeFormat('en-GB', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+    every(1000, () => {
+      el.textContent = fmt.format(new Date());
+    });
+  }
+
+  function initUptime() {
+    const el = $('#uptime');
+    const s = new Date(START + IST);
+    every(1000, () => {
+      const n = istParts().d;
+      let y = n.getUTCFullYear() - s.getUTCFullYear();
+      let m = n.getUTCMonth() - s.getUTCMonth();
+      let d = n.getUTCDate() - s.getUTCDate();
+      if (d < 0) {
+        m -= 1;
+        d += new Date(Date.UTC(n.getUTCFullYear(), n.getUTCMonth(), 0)).getUTCDate();
+      }
+      if (m < 0) {
+        y -= 1;
+        m += 12;
+      }
+      el.textContent = `${y}y ${m}m ${d}d ${pad(n.getUTCHours())}:${pad(n.getUTCMinutes())}:${pad(n.getUTCSeconds())}`;
+    });
+  }
+
+  function initEventLog() {
+    const log = $('#log');
+    const term = $('#term');
+    const EV = [
+      ['change_stream', 'messages.insert mapped and authorized', 'case-realtime'],
+      ['signalr.hub', 'fan-out to iOS, Android and web sessions', 'case-realtime'],
+      ['presence', 'typing indicator, cross-center room', 'case-realtime'],
+      ['api.v2', 'GET participants, keyset page 3, no N+1', 'case-api'],
+      ['export.job', 'lease acquired, block-staged upload started', 'case-features', 'export'],
+      ['ratelimit', 'token bucket evaluated in one Lua script, allowed', 'case-reliability'],
+      ['retention', 'plan tier read atomically, paid history kept', 'case-features', 'life'],
+      ['authz.pipeline', 'six policies, decision with reason and obligations', 'case-authz'],
+      ['storage.lib', 'block list committed, pre-signed URL issued', 'case-storage'],
+      ['membership', 'admin promoted, metadata event sent to every device', 'case-features', 'members']
+    ];
+    let k = 0;
+    const add = (offset, animate) => {
+      const [src, msg, target, tab] = EV[k % EV.length];
+      k += 1;
+      const p = new Date(Date.now() + IST - offset);
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.tabIndex = -1;
+      b.className = animate ? 'll new' : 'll';
+      b.innerHTML = `<span class="t">${pad(p.getUTCHours())}:${pad(p.getUTCMinutes())}:${pad(p.getUTCSeconds())}.${pad(p.getUTCMilliseconds(), 3)}</span><span class="s"></span><span class="m"></span>`;
+      b.children[1].textContent = src;
+      b.children[2].textContent = msg;
+      b.addEventListener('click', () => goTo(target, tab));
+      log.appendChild(b);
+      while (log.children.length > 8) {
+        log.firstElementChild.remove();
+      }
+    };
+    for (let i = 5; i > 0; i -= 1) {
+      add(i * 1500 + Math.random() * 400, false);
+    }
+    watch(term);
+    every(1500, () => {
+      if (isLive(term)) {
+        add(0, true);
+      }
+    });
+  }
+
+  function initSpotlight() {
+    const hero = $('.hero');
+    if (!matchMedia('(pointer: fine)').matches || reduced()) {
+      return;
+    }
+    let x = 0;
+    let y = 0;
+    let queued = false;
+    hero.addEventListener('pointermove', (e) => {
+      const r = hero.getBoundingClientRect();
+      x = e.clientX - r.left;
+      y = e.clientY - r.top;
+      if (!queued) {
+        queued = true;
+        requestAnimationFrame(() => {
+          queued = false;
+          hero.style.setProperty('--mx', `${x}px`);
+          hero.style.setProperty('--my', `${y}px`);
+          hero.style.setProperty('--so', '1');
+        });
+      }
+    });
+    hero.addEventListener('pointerleave', () => hero.style.setProperty('--so', '0'));
+  }
+
+  function applyView(v) {
+    root.dataset.view = v;
+    $$('[data-set-view]').forEach((b) => {
+      if (b.dataset.setView === 'toggle') {
+        b.textContent = v === 'product' ? 'Switch to engineer view' : 'Switch to product view';
+      } else {
+        b.setAttribute('aria-pressed', String(b.dataset.setView === v));
+      }
+    });
+    $$('.for-product').forEach((p) => {
+      p.inert = v !== 'product';
+    });
+    $$('.for-engineer').forEach((p) => {
+      p.inert = v !== 'engineer';
+    });
+  }
+  function setView(v) {
+    if (v === root.dataset.view) {
+      return;
+    }
+    const cands = $$('main section, .case, .rel-b, .q2 > article');
+    const line = 120;
+    let anchor = null;
+    cands.forEach((el) => {
+      if (el.getBoundingClientRect().top <= line) {
+        anchor = el;
+      }
+    });
+    const top = anchor ? anchor.getBoundingClientRect().top : 0;
+    applyView(v);
+    try {
+      localStorage.setItem('view', v);
+    } catch (e) {
+      /* storage unavailable */
+    }
+    $('#live').textContent = `Showing ${v} view`;
+    if (anchor) {
+      const end = performance.now() + 520;
+      const keep = () => {
+        window.scrollBy(0, anchor.getBoundingClientRect().top - top);
+        if (performance.now() < end) {
+          requestAnimationFrame(keep);
+        }
+      };
+      requestAnimationFrame(keep);
+    }
+  }
+  const toggleView = () => setView(root.dataset.view === 'product' ? 'engineer' : 'product');
+  function initView() {
+    applyView(root.dataset.view === 'engineer' ? 'engineer' : 'product');
+    document.addEventListener('click', (e) => {
+      const b = e.target.closest('[data-set-view]');
+      if (b) {
+        if (b.dataset.setView === 'toggle') {
+          toggleView();
+        } else {
+          setView(b.dataset.setView);
+        }
+      }
+    });
+  }
+
+  async function copyEmail() {
+    try {
+      await navigator.clipboard.writeText(EMAIL);
+      return true;
+    } catch (e) {
+      const t = document.createElement('textarea');
+      t.value = EMAIL;
+      document.body.appendChild(t);
+      t.select();
+      const ok = document.execCommand('copy');
+      t.remove();
+      return ok;
+    }
+  }
+
+  function initPalette() {
+    const dlg = $('#palette');
+    const input = $('#pq');
+    const list = $('#pl');
+    const mac = /Mac|iPhone|iPad/.test(navigator.platform || '');
+    $('#kmod').textContent = mac ? 'Cmd' : 'Ctrl';
+    let shown = [];
+    let idx = 0;
+    let opener = null;
+    const nav = (id, label, hint) => ({ label, hint, run: () => goTo(id) });
+    const build = () => [
+      nav('top', 'Top', 'Section'), nav('glance', '30-second read', 'Section'), nav('work', 'Work at Zenoti', 'Section'),
+      nav('case-realtime', 'Real-time messaging pipeline', 'Case study'), nav('case-api', 'Critical API optimization', 'Case study'),
+      nav('case-attach', 'Attachment contract redesign', 'Case study'), nav('case-features', 'Features that sell the paid plan', 'Case study'),
+      nav('case-storage', 'Streaming storage library', 'Case study'), nav('case-authz', 'Composable authorization policy pipeline', 'Case study'),
+      nav('case-reliability', 'Distributed coordination and reliability', 'Case study'), nav('ai', 'AI-native engineering', 'Section'),
+      nav('observability', 'Production observability dashboard', 'Tool'), nav('quality', 'Architecture and quality', 'Section'),
+      nav('cognizant', 'Cognizant', 'Section'), nav('projects', 'Selected builds', 'Section'), nav('apppulse', 'AppPulse', 'Project'),
+      nav('journey', 'Journey', 'Section'), nav('capabilities', 'Capabilities', 'Section'), nav('contact', 'Contact', 'Section'),
+      { label: 'Copy email', hint: 'Action', run: async () => toast((await copyEmail()) ? 'Email copied' : EMAIL) },
+      { label: 'Open GitHub', hint: 'Action', run: () => window.open('https://github.com/Tabish8065', '_blank', 'noopener') },
+      { label: 'Open LinkedIn', hint: 'Action', run: () => window.open('https://linkedin.com/in/hmirza8065', '_blank', 'noopener') },
+      { label: root.dataset.view === 'product' ? 'Switch to engineer view' : 'Switch to product view', hint: 'Action', run: toggleView }
+    ];
+    let items = build();
+    const score = (q, s) => {
+      if (!q) {
+        return 1;
+      }
+      const t = s.toLowerCase();
+      let i = 0;
+      let sc = 0;
+      let last = -2;
+      for (const c of q.toLowerCase()) {
+        if (c === ' ') {
+          continue;
+        }
+        const j = t.indexOf(c, i);
+        if (j < 0) {
+          return 0;
+        }
+        sc += j === last + 1 ? 3 : 1;
+        if (j === 0 || t[j - 1] === ' ') {
+          sc += 2;
+        }
+        last = j;
+        i = j + 1;
+      }
+      return sc;
+    };
+    const mark = () => {
+      $$('li[role="option"]', list).forEach((li, i) => li.setAttribute('aria-selected', String(i === idx)));
+      const cur = $(`#po${idx}`);
+      if (cur) {
+        input.setAttribute('aria-activedescendant', cur.id);
+        cur.scrollIntoView({ block: 'nearest' });
+      } else {
+        input.removeAttribute('aria-activedescendant');
+      }
+    };
+    const render = () => {
+      const q = input.value.trim();
+      shown = items.map((it, o) => ({ it, o, s: score(q, `${it.label} ${it.hint}`) })).filter((x) => x.s > 0).sort((a, b) => b.s - a.s || a.o - b.o).map((x) => x.it);
+      idx = 0;
+      list.innerHTML = '';
+      if (!shown.length) {
+        list.innerHTML = '<li class="pal-empty">No matches</li>';
+      }
+      shown.forEach((it, i) => {
+        const li = document.createElement('li');
+        li.id = `po${i}`;
+        li.setAttribute('role', 'option');
+        li.innerHTML = '<span></span><small></small>';
+        li.firstChild.textContent = it.label;
+        li.lastChild.textContent = it.hint;
+        li.addEventListener('mousemove', () => {
+          if (idx !== i) {
+            idx = i;
+            mark();
+          }
+        });
+        li.addEventListener('click', () => run(i));
+        list.appendChild(li);
+      });
+      mark();
+    };
+    const run = (i) => {
+      const it = shown[i];
+      if (!it) {
+        return;
+      }
+      dlg.close();
+      setTimeout(it.run, 0);
+    };
+    const open = () => {
+      if (dlg.open) {
+        return;
+      }
+      opener = document.activeElement;
+      items = build();
+      input.value = '';
+      render();
+      dlg.showModal();
+      input.focus();
+    };
+    dlg.addEventListener('close', () => {
+      if (opener && opener.focus) {
+        opener.focus({ preventScroll: true });
+      }
+    });
+    dlg.addEventListener('click', (e) => {
+      if (e.target === dlg) {
+        dlg.close();
+      }
+    });
+    input.addEventListener('input', render);
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (shown.length) {
+          idx = (idx + (e.key === 'ArrowDown' ? 1 : -1) + shown.length) % shown.length;
+          mark();
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        run(idx);
+      } else if (e.key === 'Tab') {
+        e.preventDefault();
+      }
+    });
+    $$('[data-palette]').forEach((b) => b.addEventListener('click', open));
+    document.addEventListener('keydown', (e) => {
+      const typing = e.target.closest && e.target.closest('input, textarea, select, [contenteditable="true"]');
+      if ((e.ctrlKey || e.metaKey) && (e.key || '').toLowerCase() === 'k') {
+        e.preventDefault();
+        if (dlg.open) {
+          dlg.close();
+        } else {
+          open();
+        }
+      } else if (e.key === '/' && !typing && !dlg.open && !e.ctrlKey && !e.metaKey && !e.altKey) {
+        e.preventDefault();
+        open();
+      }
+    });
+  }
+
+  function initScrollSpy() {
+    const links = $$('[data-spy]');
+    const map = new Map(links.map((a) => [a.hash.slice(1), a]));
+    const io = new IntersectionObserver((es) => es.forEach((e) => {
+      if (e.isIntersecting) {
+        links.forEach((a) => {
+          a.classList.remove('on');
+          a.removeAttribute('aria-current');
+        });
+        const a = map.get(e.target.id);
+        if (a) {
+          a.classList.add('on');
+          a.setAttribute('aria-current', 'true');
+        }
+      }
+    }), { rootMargin: '-45% 0px -54% 0px' });
+    $$('main > section').forEach((s) => io.observe(s));
+  }
+
+  function initProgress() {
+    const bar = $('#prog');
+    const links = $$('.rail a');
+    const arts = links.map((a) => document.getElementById(a.hash.slice(1)));
+    let cur = -2;
+    scrollFns.push(() => {
+      const h = document.documentElement.scrollHeight - innerHeight;
+      bar.style.transform = `scaleX(${h > 0 ? Math.min(1, scrollY / h) : 0})`;
+      const line = innerHeight * 0.4;
+      let act = -1;
+      arts.forEach((el, i) => {
+        const r = el.getBoundingClientRect();
+        links[i].style.setProperty('--p', Math.min(1, Math.max(0, (line - r.top) / r.height)).toFixed(3));
+        if (r.top < line && r.bottom > line) {
+          act = i;
+        }
+      });
+      if (act !== cur) {
+        cur = act;
+        links.forEach((a, i) => a.classList.toggle('on', i === act));
+        const ul = links[0].closest('ul');
+        if (act >= 0 && ul.scrollWidth > ul.clientWidth) {
+          ul.scrollTo({ left: links[act].parentElement.offsetLeft - 16, behavior: reduced() ? 'auto' : 'smooth' });
+        }
+      }
+    });
+  }
+
+  function packet(w, d) {
+    const p = $('.pkt', w);
+    if (!p || !p.animate) {
+      return sleep(d);
+    }
+    const v = w.offsetHeight > w.offsetWidth;
+    const k = v ? 'top' : 'left';
+    const a = p.animate([{ [k]: '0%', opacity: 0 }, { opacity: 1, offset: 0.15 }, { opacity: 1, offset: 0.85 }, { [k]: '100%', opacity: 0 }], { duration: d, easing: 'cubic-bezier(.45,0,.55,1)' });
+    return a.finished.catch(() => {});
+  }
+  async function loopFlow(f) {
+    const wires = $$(':scope > .wire', f);
+    const last = $$(':scope > .node', f).pop();
+    const seg = Math.max(2400 / wires.length, 420);
+    for (;;) {
+      if (!isLive(f)) {
+        await sleep(500);
+        continue;
+      }
+      for (const w of wires) {
+        await packet(w, seg);
+      }
+      last.classList.add('hit');
+      f.dispatchEvent(new CustomEvent('flowhit'));
+      await sleep(900);
+      last.classList.remove('hit');
+      await sleep(500);
+    }
+  }
+  function initFlows() {
+    $$('[data-flow]').forEach((f) => {
+      [...f.children].forEach((c, i) => c.style.setProperty('--i', i));
+      if (reduced()) {
+        f.classList.add('is-drawn');
+        return;
+      }
+      watch(f);
+      once(f, () => {
+        f.classList.add('is-drawn');
+        setTimeout(() => loopFlow(f), f.children.length * 180 + 500);
+      }, 0.35);
+    });
+    const rt = $('#rtflow');
+    const devs = $$('#devices .device');
+    rt.addEventListener('flowhit', () => devs.forEach((d, i) => {
+      setTimeout(() => d.classList.add('lit'), i * 140);
+      setTimeout(() => d.classList.remove('lit'), 1100 + i * 140);
+    }));
+    if (reduced()) {
+      devs.forEach((d) => d.classList.add('lit'));
+    }
+    $$('.layers, #mbars').forEach((el) => {
+      [...el.children].forEach((c, i) => c.style.setProperty('--i', i));
+      if (reduced()) {
+        el.classList.add('is-drawn');
+      } else {
+        once(el, () => el.classList.add('is-drawn'), 0.35);
+      }
+    });
+  }
+
+  function initBarRaces() {
+    $$('[data-race]').forEach((r) => {
+      const out = $('[data-race-out]', r);
+      if (reduced()) {
+        r.classList.add('run');
+        return;
+      }
+      const from = +r.dataset.from;
+      const to = +r.dataset.to;
+      const dec = +(r.dataset.dec || 0);
+      const unit = r.dataset.unit || '';
+      if (out) {
+        out.textContent = from.toFixed(dec) + unit;
+      }
+      once(r, () => {
+        r.classList.add('run');
+        if (out) {
+          tween(1200, (t) => {
+            out.textContent = t >= 1 ? r.dataset.final : (from + (to - from) * t).toFixed(dec) + unit;
+          });
+        }
+      }, 0.4);
+    });
+  }
+
+  function initCounters() {
+    if (reduced()) {
+      return;
+    }
+    $$('[data-count]').forEach((el) => {
+      const n = +el.dataset.count;
+      el.textContent = '0';
+      once(el, () => tween(1200, (t) => {
+        el.textContent = String(Math.round(n * t));
+      }), 0.5);
+    });
+  }
+
+  function initFeatureTabs() {
+    const tabs = $$('.fx-tabs [role="tab"]');
+    const panels = tabs.map((t) => document.getElementById(t.getAttribute('aria-controls')));
+    const pick = (i, focus) => {
+      tabs.forEach((t, j) => {
+        t.setAttribute('aria-selected', String(i === j));
+        t.tabIndex = i === j ? 0 : -1;
+        panels[j].hidden = i !== j;
+      });
+      if (focus) {
+        tabs[i].focus();
+      }
+      const bar = tabs[i].parentElement;
+      if (bar.scrollWidth > bar.clientWidth) {
+        bar.scrollTo({ left: tabs[i].offsetLeft - 16, behavior: 'smooth' });
+      }
+    };
+    selectTab = (key, focus) => {
+      const i = tabs.findIndex((t) => t.dataset.key === key);
+      if (i >= 0) {
+        pick(i, focus);
+      }
+    };
+    tabs.forEach((t, i) => {
+      t.addEventListener('click', () => pick(i, false));
+      t.addEventListener('keydown', (e) => {
+        const n = tabs.length;
+        const map = { ArrowDown: i + 1, ArrowRight: i + 1, ArrowUp: i - 1, ArrowLeft: i - 1, Home: 0, End: n - 1 };
+        if (e.key in map) {
+          e.preventDefault();
+          pick((map[e.key] + n) % n, true);
+        }
+      });
+    });
+    pick(0, false);
+    const ins = $$('#logic [data-in]');
+    const out = $('#lgout');
+    ins.forEach((b) => b.addEventListener('click', () => {
+      b.setAttribute('aria-pressed', String(b.getAttribute('aria-pressed') !== 'true'));
+      const on = ins.every((x) => x.getAttribute('aria-pressed') === 'true');
+      out.classList.toggle('on', on);
+      out.lastChild.textContent = on ? 'Can share' : 'Cannot share';
+    }));
+  }
+
+  function initAuthzDemo() {
+    const box = $('#authz');
+    const gates = $$('.gate', box);
+    const btns = $$('[data-req]', box);
+    const P = [
+      { deny: -1, obl: 'None', reason: 'All six policies passed.' },
+      { deny: 0, obl: 'None', reason: 'Plan entitlement: action not in plan. Later policies skipped, lazy evaluation.' },
+      { deny: -1, obl: 'Contact masking', reason: 'All six policies passed, with an obligation.' }
+    ];
+    let run = 0;
+    const set = (g, cls, txt) => {
+      g.className = `gate ${cls}`;
+      $('.gs', g).textContent = txt;
+    };
+    const play = async (i) => {
+      const id = ++run;
+      const p = P[i];
+      btns.forEach((b, j) => b.setAttribute('aria-pressed', String(i === j)));
+      gates.forEach((g) => set(g, '', 'pending'));
+      box.classList.remove('allow', 'deny');
+      $('#az-dec').textContent = 'Evaluating';
+      $('#az-rsn').textContent = 'Request passing through ordered policies.';
+      $('#az-obl').textContent = '—';
+      for (let k = 0; k < gates.length; k += 1) {
+        if (p.deny >= 0 && k > p.deny) {
+          set(gates[k], 'skip', 'skipped');
+          continue;
+        }
+        set(gates[k], 'at', 'evaluating');
+        if (!reduced()) {
+          await sleep(380);
+        }
+        if (id !== run) {
+          return;
+        }
+        set(gates[k], k === p.deny ? 'deny' : 'pass', k === p.deny ? 'deny' : 'pass');
+      }
+      if (!reduced()) {
+        await sleep(220);
+      }
+      if (id !== run) {
+        return;
+      }
+      const allow = p.deny < 0;
+      box.classList.add(allow ? 'allow' : 'deny');
+      $('#az-dec').textContent = allow ? 'Allow' : 'Deny';
+      $('#az-rsn').textContent = p.reason;
+      $('#az-obl').textContent = p.obl;
+    };
+    btns.forEach((b, i) => b.addEventListener('click', () => play(i)));
+    box.classList.add('allow');
+    if (!reduced()) {
+      once(box, () => play(0), 0.35);
+    }
+  }
+
+  function initTokenBucket() {
+    const el = $('#bucket');
+    const cells = $$('.tk i', el);
+    const cap = cells.length;
+    let tokens = cap;
+    let ok = 0;
+    let no = 0;
+    const draw = () => cells.forEach((c, i) => c.classList.toggle('on', i < Math.floor(tokens)));
+    every(250, () => {
+      if (tokens < cap) {
+        tokens = Math.min(cap, tokens + 0.5);
+        draw();
+      }
+    });
+    $('#tb-send').addEventListener('click', async () => {
+      for (let i = 0; i < 6; i += 1) {
+        if (tokens >= 1) {
+          tokens -= 1;
+          ok += 1;
+        } else {
+          no += 1;
+        }
+        draw();
+        $('#tb-a').textContent = ok;
+        $('#tb-l').textContent = no;
+        if (!reduced()) {
+          await sleep(70);
+        }
+      }
+    });
+  }
+
+  function initAiRail() {
+    const rail = $('#airail');
+    const steps = $$('.ai-step', rail);
+    const pkt = $('.ai-pkt', rail);
+    const res = $('#ai-resume');
+    let i = 0;
+    let paused = false;
+    const show = (k) => {
+      steps.forEach((s, j) => {
+        s.classList.toggle('cur', j === k);
+        s.classList.toggle('done', j < k);
+        s.setAttribute('aria-pressed', String(paused && j === k));
+      });
+      const s = steps[k];
+      const li = s.parentElement;
+      pkt.style.transform = `translate(${li.offsetLeft}px, ${li.offsetTop}px)`;
+      $('#ai-dt').textContent = `${pad(k + 1)} ${s.textContent.replace(/^\d+/, '')}`;
+      $('#ai-dd').textContent = s.dataset.detail;
+    };
+    steps.forEach((s, j) => s.addEventListener('click', () => {
+      paused = true;
+      i = j;
+      show(j);
+      res.hidden = false;
+    }));
+    res.addEventListener('click', () => {
+      paused = false;
+      res.hidden = true;
+      show(i);
+    });
+    addEventListener('resize', () => show(i));
+    show(reduced() ? steps.length - 1 : 0);
+    if (reduced()) {
+      return;
+    }
+    watch(rail);
+    (async () => {
+      for (;;) {
+        if (paused || !isLive(rail)) {
+          await sleep(400);
+          continue;
+        }
+        show(i);
+        if (i === steps.length - 1) {
+          rail.classList.add('gating');
+          await sleep(1700);
+          rail.classList.remove('gating');
+          steps[i].classList.add('approved');
+          await sleep(1000);
+          steps[i].classList.remove('approved');
+          if (!paused) {
+            i = 0;
+          }
+        } else {
+          await sleep(1000);
+          if (!paused) {
+            i += 1;
+          }
+        }
+      }
+    })();
+  }
+
+  function initTimeline() {
+    const tl = $('#tl');
+    const items = $$(':scope > li', tl);
+    const fill = () => {
+      const r = tl.getBoundingClientRect();
+      const f = Math.min(1, Math.max(0, (innerHeight * 0.62 - r.top) / r.height));
+      tl.style.setProperty('--fill', f.toFixed(4));
+      const y = f * r.height;
+      items.forEach((li) => li.classList.toggle('lit', li.offsetTop + 8 <= y));
+    };
+    if (reduced()) {
+      tl.style.setProperty('--fill', '1');
+      items.forEach((li) => li.classList.add('lit'));
+      return;
+    }
+    scrollFns.push(fill);
+  }
+
+  function initTerms() {
+    const tip = $('#tip');
+    const hide = () => {
+      tip.hidden = true;
+    };
+    $$('.term-c').forEach((c) => {
+      c.setAttribute('aria-describedby', 'tip');
+      const show = () => {
+        tip.textContent = c.dataset.tip;
+        tip.hidden = false;
+        const r = c.getBoundingClientRect();
+        const w = tip.offsetWidth;
+        const h = tip.offsetHeight;
+        tip.style.left = `${Math.max(8, Math.min(innerWidth - w - 8, r.left + r.width / 2 - w / 2))}px`;
+        tip.style.top = `${r.top - h - 10 < 64 ? r.bottom + 10 : r.top - h - 10}px`;
+      };
+      c.addEventListener('mouseenter', show);
+      c.addEventListener('focus', show);
+      c.addEventListener('mouseleave', hide);
+      c.addEventListener('blur', hide);
+      c.addEventListener('click', (e) => {
+        e.preventDefault();
+        hide();
+        goTo(c.hash.slice(1), c.dataset.tab);
+      });
+    });
+    addEventListener('scroll', hide, { passive: true });
+  }
+
+  function initCopy() {
+    $$('[data-copy]').forEach((b) => {
+      b.hidden = false;
+      b.addEventListener('click', async () => {
+        b.textContent = (await copyEmail()) ? 'Copied' : 'Copy failed';
+        setTimeout(() => {
+          b.textContent = 'Copy';
+        }, 1600);
+      });
+    });
+    $('#yr').textContent = new Date().getFullYear();
+  }
+
+  function initDash() {
+    const el = $('#dash');
+    const p95 = $('#p95');
+    const p99 = $('#p99');
+    const a = Array.from({ length: 24 }, () => 12 + Math.random() * 6);
+    const b = a.map((v) => v + 8 + Math.random() * 6);
+    const d = (arr) => arr.map((v, i) => `${i ? 'L' : 'M'}${i * 5} ${(40 - v).toFixed(1)}`).join(' ');
+    const draw = () => {
+      p95.setAttribute('d', d(a));
+      p99.setAttribute('d', d(b));
+    };
+    draw();
+    if (reduced()) {
+      return;
+    }
+    watch(el);
+    every(1000, () => {
+      if (!isLive(el)) {
+        return;
+      }
+      const n = Math.max(8, Math.min(20, a[a.length - 1] + (Math.random() - 0.5) * 5));
+      a.shift();
+      a.push(n);
+      b.shift();
+      b.push(n + 8 + Math.random() * 8);
+      draw();
+    });
+  }
+
+  function initGauge() {
+    const g = $('#gauge');
+    const arc = $('.g-val', g);
+    const seq = [94, 93, 95, 91, 86, 74, 58, 42, 38, 41, 63, 84, 92];
+    let k = 0;
+    const set = (v) => {
+      arc.style.strokeDashoffset = String(1 - v / 100);
+      $('#g-num').textContent = v;
+      const al = v < 50;
+      g.classList.toggle('alert', al);
+      $('#g-st').textContent = al ? 'Alert: below health threshold, SNS notified' : 'Healthy';
+    };
+    set(94);
+    if (reduced()) {
+      return;
+    }
+    watch(g);
+    every(1100, () => {
+      if (isLive(g)) {
+        k = (k + 1) % seq.length;
+        set(seq[k]);
+      }
+    });
+  }
+
+  function initReducedMotion() {
+    RM.addEventListener('change', () => location.reload());
+    $$('.stream').forEach(watch);
+  }
+
+  function initBoot() {
+    requestAnimationFrame(() => requestAnimationFrame(() => root.classList.add('booted')));
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    [initBoot, initClock, initUptime, initEventLog, initSpotlight, initView, initPalette, initScrollSpy, initProgress, initFlows, initBarRaces, initCounters, initFeatureTabs, initAuthzDemo, initTokenBucket, initAiRail, initTimeline, initTerms, initCopy, initDash, initGauge, initReducedMotion].forEach((fn) => {
+      try {
+        fn();
+      } catch (e) {
+        /* one module failing must not break the rest */
+      }
+    });
+    addEventListener('scroll', onScroll, { passive: true });
+    addEventListener('resize', onScroll);
+    onScroll();
+  });
+})();
+</script>
 </body>
 </html>

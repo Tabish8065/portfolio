@@ -2,43 +2,41 @@
 
 > Software Engineer · Real-time systems · Production performance · Platform libraries · AI-native engineering
 
-An engineering impact report rather than a template portfolio. Every section leads with problem and result; an **Engineer view** toggle expands the design, patterns, and trade-offs behind each case study.
+**Signal**: a portfolio that behaves like a live production system. Case-study diagrams draw themselves and carry data packets, a simulated event log streams from the systems described, and a site-wide **Reading as: Product / Engineer** toggle switches between outcomes and design detail.
 
-**Live:** [tabish8065.github.io/portfolio](https://tabish8065.github.io/portfolio/)
+**Live:** [tabish8065.github.io/portfolio](https://tabish8065.github.io/portfolio/) · Engineer view: [?view=engineer](https://tabish8065.github.io/portfolio/?view=engineer)
 
 ## What's on the page
 
 | Section | Purpose |
 |---|---|
-| Hero | Role, positioning, four headline metrics, live experience counter (since 19 Sep 2023) |
-| 30-second read | Who, what I ship, how I work, and the engineering vocabulary from my work |
-| Zenoti work | Real-time pipeline, API optimization, attachment contract, plan-tier features, streaming storage library, policy pipeline, distributed coordination |
-| AI-native engineering | MCP-connected workflow, guardrails, and the engineering tools I built (observability dashboard, PR analyzer, API regression, E2E smoke) |
-| Architecture and quality | Flutter architecture standard and layered testing framework |
-| Cognizant | Automation, telemetry pipeline, Azure migration, performance |
-| Projects, Journey, Capabilities, Contact | Supporting evidence and ways to reach me |
+| Hero | Role, positioning, live events terminal, uptime since 19 Sep 2023, four headline metrics with sparklines |
+| 30-second read | Who, what I ship, how I work, and the terms from my work (each links to its case study) |
+| Work at Zenoti | Real-time pipeline, API optimization, attachment contract, paid-plan feature explorer, streaming storage library, authorization pipeline demo, distributed coordination and a token-bucket demo |
+| AI-native engineering | The 8-step reviewed workflow, six principles, and the engineering tools I built |
+| Architecture and quality | Layered Flutter architecture and the layered testing framework |
+| Cognizant | Event-driven automation, telemetry pipeline, Azure migration, legacy performance |
+| Selected builds | AppPulse (with an illustrative health gauge) and other projects |
+| Journey, Capabilities, Contact | Timeline, grouped skills, and ways to reach me |
 
 ## Structure
 
 ```
 portfolio/
-├── index.html        # Semantic content, metadata, JSON-LD
-├── styles.css        # Visual system, responsive layout, reduced-motion and print rules
-├── script.js         # Nav, reveals, count-up, counter, depth toggle, cursor, canvas
-└── assets/
-    └── resume/
-        └── Mirza-Tabish-Hasan-Resume.pdf   # add this file to enable resume buttons
+├── index.html   # Everything: content, metadata, JSON-LD, inline CSS and JS
+└── README.md
 ```
 
-No framework, no build step, no dependencies. Works when `index.html` is opened directly and on GitHub Pages.
+No framework, no build step, no dependencies beyond Google Fonts (IBM Plex Mono and IBM Plex Sans). Works when `index.html` is opened directly and on GitHub Pages.
 
 ## Behavior notes
 
-- Content is fully visible without JavaScript; `<details>` panels work natively.
-- `prefers-reduced-motion` disables the canvas, cursor, count-up, and reveal motion.
-- The custom cursor is enabled only for precise pointers.
-- The particle canvas scales density to the viewport, caps device-pixel ratio at 2, and pauses when the tab is hidden.
-- Resume buttons stay hidden until `assets/resume/Mirza-Tabish-Hasan-Resume.pdf` is reachable over HTTP, so no broken links ship.
+- `Ctrl/Cmd + K` or `/` opens the command palette, which also serves as mobile navigation.
+- The Product / Engineer view persists in `localStorage` and can be set with `?view=engineer`.
+- Content is fully visible without JavaScript: both views shown, diagrams drawn, all feature panels listed.
+- `prefers-reduced-motion` shows every diagram complete and stops all loops; the clock keeps ticking.
+- Looping animations pause when off-screen or when the tab is hidden.
+- Demos and the dashboard and gauge panels are labelled as illustrations, not production data.
 
 ## Run locally
 
@@ -50,7 +48,11 @@ python -m http.server 8000
 
 ## Deploy
 
-GitHub Pages serves `main` from the repository root. Merge `work` into `main` to publish.
+GitHub Pages serves `main` from the repository root.
+
+## Credits
+
+The code for this site was generated with AI. The imagination, creative direction, and supervision are mine.
 
 ## Contact
 
